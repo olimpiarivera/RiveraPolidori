@@ -114,7 +114,7 @@ The RASD document is structured in the following 5 chapters:
 
 \section{Overall Description}
 \subsection{Product Perspective}
-The class diagram below gives a high level representation of the system domain. Classes contains only attributes necessary to clarify the most important dynamics. \textbf{QR Code} is associated either to a \textbf{Turn Number} or to a \textbf{Reservation} and has attributes required to associate the measured duration of the stay to the user.
+The class diagram below gives a high level representation of the system domain. Classes contains only attributes necessary to highlight the most important dynamics. \textbf{QR Code} is associated either to a \textbf{Turn Number} or to a \textbf{Reservation} and is provided with attributes required to associate the measured duration of the stay to the user. Reservation contains a list of \textbf{Product Types} and every product type is located in a specific store \textbf{Department}. A \textbf{Queue} is composed by a certain amount of \textbf{Turn numbers}. The \textbf{Distance} needs two \textbf{Positions} and can access to the time estimated by \textbf{Google Maps API}. Also, \textbf{Customer} has a direct access to a list of the previous shopping times (calculated by the system using \textbf{QR Code} attributes).
 \begin{figure}[]
   \includegraphics[width=\linewidth]{class_diagram.png}
   
