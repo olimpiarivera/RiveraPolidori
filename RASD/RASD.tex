@@ -123,7 +123,7 @@ The class diagram below gives a high level representation of the system domain. 
 \subsection{Product Functions}
 The main functions that the system will provide are listed in the following section. The identified high level requirements will be further broken down and detailed in section 3, with respect to the previously recognized goals of the system.
 \subsubsection{Line up} 
-As previously stated, the basic functionality allows users to virtually stand in line to enter to stores. Firstly, the user selects the store and chooses among the two available options: line up or book a visit. Whenever the choice is to line up, the system will show to the user the estimated waiting time to enter. At that point, if the user decides to actually get in the line, he/she will receive the turn number and the QR code that has to be scanned when entering to the store. While waiting, the user will be shown the passing of time, the calculated distance to the store and the estimated time he/she will need to get there (exploiting Google Maps API). The user will be notified by the system when the time he/she needs to get to the store equals the time left for the user to enter. Once arrived to the store, the user might need to wait few minutes until his/her number appears on the queue board. Finally, the smart turnstile will scan the QR code and unlocks, letting the user enter the store and start shopping.
+As previously stated, the basic functionality allows users to virtually stand in line to enter to stores. Firstly, the user selects the store and chooses among the two available options: line up or book a visit. Whenever the choice is to line up, the system will show to the user the estimated waiting time to enter. At that point, if the user decides to actually get in the line, he/she will receive the turn number and the QR code that has to be scanned when entering to the store. The user will be asked wether he/she will reach the store on foot or by car. While waiting, the user will be shown the passing of time, the calculated distance to the store and the estimated time he/she will need to get there (exploiting Google Maps API). The user will be notified by the system when the time he/she needs to get to the store equals the time left for the user to enter. Once arrived to the store, the user might need to wait few minutes until his/her number appears on the queue board. Finally, the smart turnstile will scan the QR code and unlocks, letting the user enter the store and start shopping.
 \subsubsection{Book a visit} 
 As mentioned before, after choosing the store, the user also has the option to book a visit. He/she will select the preferred time slot and make a reservation whenever the slot is not already full. A QR code is generated and the user can access to the store at any moment of the time slot, as long as he/she exits before the end of it. When making the reservation, the user is asked to select the categories of items that he/she intends to purchase. This information is used by the system to understand which store’s department the customers are going to occupy in order to manage entrances in a finer way. In particular the system can either let more people in if the distribution is homogeneous inside the store or slow down the influx of people if customers are gathered in certain departments.
 \subsubsection{Manage lines} 
@@ -131,6 +131,7 @@ The CLup system has to manage the lining up mechanism effectively. First of all,
 \subsubsection{Keep track of accesses} 
 The CLup system is also meant to be used by store managers to keep track of entrances in their buildings. This is possible thanks to the smart turnstiles that scan the QR codes and let people in or out (only if the QR code is not expired or false). Consequentially, a customer counter is updated  so that stores managers can check whether they store’s capacity is respected.
 \subsection{User Characteristics}
+
 \subsection{Constraints}
 The system will have to ask users' permission to retrieve and use their positions without storing them. Moreover, the collection and treatment of personal data must comply with the principles and rules of the General Data Protection Regulation.
 \subsection{Assumptions and Dependancies}
@@ -148,11 +149,13 @@ The system will have to ask users' permission to retrieve and use their position
 \noindent\medskip
 [D6] - The turnstiles let you in or out only if the scanned QR code is valid.\\
 \noindent\medskip
-[D7] - The user doesn't change location while is waiting for his/her turn.\\
+[D7] - The user does not change location while is waiting for his/her turn.\\
 \noindent\medskip
-[D8] - The user respects slots' time boundaries.\\
+[D8] - The user does not change the indicated means of transport.\\
 \noindent\medskip
-[D9] - The user respects social distancing inside the store.\\
+[D9] - The user respects slots' time boundaries.\\
+\noindent\medskip
+[D10] - The user respects social distancing inside the store.\\
 
 
 
