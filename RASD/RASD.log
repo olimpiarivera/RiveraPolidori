@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.16)  4 DEC 2020 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.16)  4 DEC 2020 19:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -555,7 +555,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--204
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--219
+Underfull \hbox (badness 10000) in paragraph at lines 217--227
 
  []
 
@@ -563,7 +563,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--219
 Here is how much of TeX's memory you used:
  12329 strings out of 480608
  253286 string characters out of 5903629
- 469843 words of memory out of 5000000
+ 472843 words of memory out of 5000000
  27998 multiletter control sequences out of 15000+600000
  540799 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -577,7 +577,7 @@ cm-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm
 uper/sfrm1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-sup
 er/sfrm1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super
 /sfrm1728.pfb>
-Output written on RASD.pdf (12 pages, 283214 bytes).
+Output written on RASD.pdf (12 pages, 284446 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
