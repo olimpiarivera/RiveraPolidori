@@ -214,13 +214,15 @@ The system will have to ask users' permission to retrieve and use their position
 \noindent\medskip
 [D6] - The turnstiles let you in or out only if the scanned QR code is valid.\\
 \noindent\medskip
-[D7] - The user does not change location while is waiting for his/her turn.\\
+[D7] - The turnstiles let one person at a time enter/exit.\\
 \noindent\medskip
-[D8] - The user does not change the indicated means of transport.\\
+[D8] - The user does not change location while is waiting for his/her turn.\\
 \noindent\medskip
-[D9] - The user respects slots' time boundaries.\\
+[D9] - The user does not change the indicated means of transport.\\
 \noindent\medskip
-[D10] - The user respects social distancing inside the store.\\
+[D10] - The user respects slots' time boundaries.\\
+\noindent\medskip
+[D11] - The user respects social distancing inside the store.\\
 
 \section{Specific Requirements}
 \subsection{External Interface Requirements}
@@ -237,8 +239,8 @@ The required hardware interfaces are listed below:
 \subsubsection{Software Interfaces}
 The external interfaces required by the system are listed below:
 \begin{itemize}
-\item Position: the system uses a public API to retrieve the position of the user when he/she gets into a line in order to calculate his/her distance from the store and to show to the user the estimated time needed to reach the store.
-\item
+\item Position: the system uses a Maps Service API to retrieve the position of the user when he/she gets into a line in order to calculate his/her distance from the store and to show to the user the estimated time needed to reach the store.
+\item Turnstile: the system needs to communicate with the turnstiles' software in order to receive the informations related to the scanned QR codes and to the entrances/exits timestamps.
 \end{itemize}
 \subsection{Functional Requirements}
 \subsubsection{List of Requirements}
