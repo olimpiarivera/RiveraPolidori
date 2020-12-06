@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.16)  6 DEC 2020 11:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.16)  6 DEC 2020 11:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -572,12 +572,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 237--254
 
  []
 
-[11] [12] [13]
-<LoginSequence.png, id=64, 493.845pt x 375.20175pt>
+[11] [12]
+<LoginSequence.png, id=60, 493.845pt x 375.20175pt>
 File: LoginSequence.png Graphic file (type png)
 <use LoginSequence.png>
 Package pdftex.def Info: LoginSequence.png  used on input line 259.
 (pdftex.def)             Requested size: 345.0pt x 262.11272pt.
+ [13]
 <SignUpSequence.png, id=65, 487.8225pt x 314.97675pt>
 File: SignUpSequence.png Graphic file (type png)
 <use SignUpSequence.png>
@@ -643,7 +644,7 @@ b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb>
 usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></us
 r/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/
 local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on RASD.pdf (22 pages, 441182 bytes).
+Output written on RASD.pdf (22 pages, 441529 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream
