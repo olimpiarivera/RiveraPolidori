@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.16)  4 DEC 2020 23:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.16)  6 DEC 2020 11:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -68,19 +68,27 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmargin=\skip50
 \droptitle=\skip51
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count193
+\float@exts=\toks17
+\float@box=\box45
+\@float@everytoks=\toks18
+\@floatcapt=\box46
+)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks17
+\pgfutil@everybye=\toks19
 \pgfutil@tempdima=\dimen135
 \pgfutil@tempdimb=\dimen136
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box45
+\pgfutil@abb=\box47
 (/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -96,7 +104,7 @@ Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
+\KV@toks@=\toks20
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
@@ -119,12 +127,12 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks19
-\pgfkeys@temptoks=\toks20
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks21
+\pgfkeys@tmptoks=\toks23
 ))
 \pgf@x=\dimen139
 \pgf@y=\dimen140
@@ -138,14 +146,14 @@ ode.tex
 \pgf@yd=\dimen148
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count193
-\c@pgf@countb=\count194
-\c@pgf@countc=\count195
-\c@pgf@countd=\count196
-\t@pgf@toka=\toks22
-\t@pgf@tokb=\toks23
-\t@pgf@tokc=\toks24
-\pgf@sys@id@count=\count197
+\c@pgf@counta=\count194
+\c@pgf@countb=\count195
+\c@pgf@countc=\count196
+\c@pgf@countd=\count197
+\t@pgf@toka=\toks24
+\t@pgf@tokb=\toks25
+\t@pgf@tokc=\toks26
+\pgf@sys@id@count=\count198
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
@@ -163,8 +171,8 @@ File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count198
-\pgfsyssoftpath@bigbuffer@items=\count199
+\pgfsyssoftpath@smallbuffer@items=\count199
+\pgfsyssoftpath@bigbuffer@items=\count266
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -193,11 +201,11 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen149
-\pgfmath@count=\count266
-\pgfmath@box=\box46
-\pgfmath@toks=\toks25
-\pgfmath@stack@operand=\toks26
-\pgfmath@stack@operation=\toks27
+\pgfmath@count=\count267
+\pgfmath@box=\box48
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -218,7 +226,7 @@ code.tex)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count267
+\c@pgfmathroundto@lastzeros=\count268
 )) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -253,10 +261,10 @@ File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box47
-\pgf@hbox=\box48
-\pgf@layerbox@main=\box49
-\pgf@picture@serial@count=\count268
+\pgfpic=\box49
+\pgf@hbox=\box50
+\pgf@layerbox@main=\box51
+\pgf@picture@serial@count=\count269
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -291,8 +299,8 @@ File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 e.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen173
-\pgf@sys@shading@range@num=\count269
-\pgf@shadingcount=\count270
+\pgf@sys@shading@range@num=\count270
+\pgf@shadingcount=\count271
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -301,7 +309,7 @@ File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box50
+\pgfexternal@startupbox=\box52
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -322,7 +330,7 @@ File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box51
+\pgfnodeparttextbox=\box53
 )
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -349,8 +357,8 @@ Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen176
 \pgffor@skip=\dimen177
-\pgffor@stack=\toks28
-\pgffor@toks=\toks29
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -359,7 +367,7 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count271
+\pgf@plot@mark@count=\count272
 \pgfplotmarksize=\dimen178
 )
 \tikz@lastx=\dimen179
@@ -370,23 +378,23 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@lastmovetoy=\dimen184
 \tikzleveldistance=\dimen185
 \tikzsiblingdistance=\dimen186
-\tikz@figbox=\box52
-\tikz@figbox@bg=\box53
-\tikz@tempbox=\box54
-\tikz@tempbox@bg=\box55
-\tikztreelevel=\count272
-\tikznumberofchildren=\count273
-\tikznumberofcurrentchild=\count274
-\tikz@fig@count=\count275
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count273
+\tikznumberofchildren=\count274
+\tikznumberofcurrentchild=\count275
+\tikz@fig@count=\count276
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count276
-\pgfmatrixcurrentcolumn=\count277
-\pgf@matrix@numberofcolumns=\count278
+\pgfmatrixcurrentrow=\count277
+\pgfmatrixcurrentcolumn=\count278
+\pgf@matrix@numberofcolumns=\count279
 )
-\tikz@expandcount=\count279
+\tikz@expandcount=\count280
 
 (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -406,40 +414,40 @@ File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count280
-\l__pdf_internal_box=\box56
+\l__kernel_color_stack_int=\count281
+\l__pdf_internal_box=\box58
 )
 (./RASD.aux)
 \openout1 = `RASD.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
  ABD: EveryShipout initializing macros
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
+\scratchcounter=\count282
 \scratchdimen=\dimen191
-\scratchbox=\box57
-\nofMPsegments=\count282
-\nofMParguments=\count283
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count284
+\scratchbox=\box59
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count285
 \MPscratchDim=\dimen192
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
-\everyMPtoPDFconversion=\toks31
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks33
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -451,19 +459,19 @@ e
 ))
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 26.
+               Default added (so using `tbp') on input line 29.
 
 <logo_politecnico.png, id=4, 1124.2pt x 211.79124pt>
 File: logo_politecnico.png Graphic file (type png)
 <use logo_politecnico.png>
-Package pdftex.def Info: logo_politecnico.png  used on input line 27.
+Package pdftex.def Info: logo_politecnico.png  used on input line 30.
 (pdftex.def)             Requested size: 345.0pt x 64.99535pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 30.
+(Font)              <12> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 30.
+(Font)              <8> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 30.
+(Font)              <6> on input line 33.
 (./RASD.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
@@ -477,110 +485,168 @@ politecnico.png>])
 \openout4 = `RASD.toc'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 38--41
+Underfull \hbox (badness 10000) in paragraph at lines 41--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--47
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 65--89
+Underfull \hbox (badness 10000) in paragraph at lines 68--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--100
+Underfull \hbox (badness 10000) in paragraph at lines 93--103
 
  []
 
-[4]
-<class_diagram.png, id=28, 1188.44pt x 827.09pt>
+[4] [5]
+<class_diagram.png, id=30, 1188.44pt x 827.09pt>
 File: class_diagram.png Graphic file (type png)
 <use class_diagram.png>
-Package pdftex.def Info: class_diagram.png  used on input line 122.
+Package pdftex.def Info: class_diagram.png  used on input line 142.
 (pdftex.def)             Requested size: 345.0pt x 240.10236pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--125
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--125
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--125
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
 
  []
 
-[5] [6 <./class_diagram.png>]
-<Customer_state.png, id=36, 984.67876pt x 472.76625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
+
+ []
+
+[6] [7 <./class_diagram.png>]
+<Customer_state.png, id=39, 984.67876pt x 472.76625pt>
 File: Customer_state.png Graphic file (type png)
 <use Customer_state.png>
-Package pdftex.def Info: Customer_state.png  used on input line 134.
+Package pdftex.def Info: Customer_state.png  used on input line 154.
 (pdftex.def)             Requested size: 345.0pt x 165.6438pt.
-<Reservation_state.png, id=37, 1004.75375pt x 221.82875pt>
+<Reservation_state.png, id=40, 1004.75375pt x 221.82875pt>
 File: Reservation_state.png Graphic file (type png)
 <use Reservation_state.png>
-Package pdftex.def Info: Reservation_state.png  used on input line 142.
+Package pdftex.def Info: Reservation_state.png  used on input line 163.
 (pdftex.def)             Requested size: 345.0pt x 76.16881pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
-[7 <./Customer_state.png> <./Reservation_state.png>]
-<Turnstiles_state.png, id=44, 405.515pt x 312.16624pt>
+<Turnstiles_state.png, id=41, 405.515pt x 312.16624pt>
 File: Turnstiles_state.png Graphic file (type png)
 <use Turnstiles_state.png>
-Package pdftex.def Info: Turnstiles_state.png  used on input line 152.
+Package pdftex.def Info: Turnstiles_state.png  used on input line 172.
 (pdftex.def)             Requested size: 170.71652pt x 131.41853pt.
- [8 <./Turnstiles_state.png>] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 184--204
+[8 <./Customer_state.png> <./Reservation_state.png>] [9 <./Turnstiles_state.png
+>] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 204--224
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--234
+Underfull \hbox (badness 10000) in paragraph at lines 237--254
 
  []
 
-[10] [11] [12] [13] (./RASD.aux) ) 
+[11] [12] [13]
+<LoginSequence.png, id=64, 493.845pt x 375.20175pt>
+File: LoginSequence.png Graphic file (type png)
+<use LoginSequence.png>
+Package pdftex.def Info: LoginSequence.png  used on input line 259.
+(pdftex.def)             Requested size: 345.0pt x 262.11272pt.
+<SignUpSequence.png, id=65, 487.8225pt x 314.97675pt>
+File: SignUpSequence.png Graphic file (type png)
+<use SignUpSequence.png>
+Package pdftex.def Info: SignUpSequence.png  used on input line 264.
+(pdftex.def)             Requested size: 345.0pt x 222.76033pt.
+ [14 <./LoginSequence.png>]
+<RegistrationSequence.png, id=70, 510.708pt x 462.528pt>
+File: RegistrationSequence.png Graphic file (type png)
+<use RegistrationSequence.png>
+Package pdftex.def Info: RegistrationSequence.png  used on input line 269.
+(pdftex.def)             Requested size: 345.0pt x 312.4611pt.
+ [15 <./SignUpSequence.png>]
+<LineUpSequence.png, id=75, 460.72125pt x 584.78474pt>
+File: LineUpSequence.png Graphic file (type png)
+<use LineUpSequence.png>
+Package pdftex.def Info: LineUpSequence.png  used on input line 274.
+(pdftex.def)             Requested size: 345.0pt x 437.90039pt.
+ [16 <./RegistrationSequence.png>]
+<BookSequence.png, id=80, 404.712pt x 579.3645pt>
+File: BookSequence.png Graphic file (type png)
+<use BookSequence.png>
+Package pdftex.def Info: BookSequence.png  used on input line 279.
+(pdftex.def)             Requested size: 345.0pt x 493.91197pt.
+ [17 <./LineUpSequence.png>]
+<CancelReservationSequence.png, id=85, 494.44725pt x 372.1905pt>
+File: CancelReservationSequence.png Graphic file (type png)
+<use CancelReservationSequence.png>
+Package pdftex.def Info: CancelReservationSequence.png  used on input line 284.
+
+(pdftex.def)             Requested size: 345.0pt x 259.69673pt.
+ [18 <./BookSequence.png>]
+<OutOfLineSequence.png, id=90, 547.44525pt x 340.8735pt>
+File: OutOfLineSequence.png Graphic file (type png)
+<use OutOfLineSequence.png>
+Package pdftex.def Info: OutOfLineSequence.png  used on input line 289.
+(pdftex.def)             Requested size: 345.0pt x 214.81905pt.
+<PrintTicketSequence.png, id=91, 499.26524pt x 320.99925pt>
+File: PrintTicketSequence.png Graphic file (type png)
+<use PrintTicketSequence.png>
+Package pdftex.def Info: PrintTicketSequence.png  used on input line 294.
+(pdftex.def)             Requested size: 345.0pt x 221.81789pt.
+
+[19 <./CancelReservationSequence.png> <./OutOfLineSequence.png>]
+<ReachStoreSequence.png, id=98, 510.708pt x 570.33075pt>
+File: ReachStoreSequence.png Graphic file (type png)
+<use ReachStoreSequence.png>
+Package pdftex.def Info: ReachStoreSequence.png  used on input line 299.
+(pdftex.def)             Requested size: 345.0pt x 385.28734pt.
+ [20 <./PrintTicketSequence.png>] [21 <./ReachStoreSequence.png>] [22] (./RASD.
+aux) ) 
 Here is how much of TeX's memory you used:
- 12329 strings out of 480608
- 253286 string characters out of 5903629
- 476843 words of memory out of 5000000
- 27998 multiletter control sequences out of 15000+600000
- 540799 words of font info for 41 fonts, out of 8000000 for 9000
+ 12439 strings out of 480608
+ 255328 string characters out of 5903629
+ 478240 words of memory out of 5000000
+ 28096 multiletter control sequences out of 15000+600000
+ 540464 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,7n,65p,1488b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc
-/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/
-dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/
-public/cm-super/sfbx1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
-blic/cm-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publ
-ic/cm-super/sfbx1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
-/cm-super/sfrm1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/c
-m-super/sfrm1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-
-super/sfrm1728.pfb>
-Output written on RASD.pdf (13 pages, 287036 bytes).
+ 60i,7n,65p,1489b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.
+enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pf
+b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></
+usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></us
+r/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/
+local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on RASD.pdf (22 pages, 441182 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
