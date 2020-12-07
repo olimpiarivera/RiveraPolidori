@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.16)  6 DEC 2020 18:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.16)  7 DEC 2020 15:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -499,197 +499,197 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--92
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--103
-
- []
-
-[4] [5]
-<class_diagram.png, id=30, 1188.44pt x 827.09pt>
+<Goals.png, id=24, 539.01375pt x 182.6825pt>
+File: Goals.png Graphic file (type png)
+<use Goals.png>
+Package pdftex.def Info: Goals.png  used on input line 94.
+(pdftex.def)             Requested size: 345.0pt x 116.92754pt.
+[4] [5 <./Goals.png>]
+<class_diagram.png, id=32, 1188.44pt x 827.09pt>
 File: class_diagram.png Graphic file (type png)
 <use class_diagram.png>
-Package pdftex.def Info: class_diagram.png  used on input line 142.
+Package pdftex.def Info: class_diagram.png  used on input line 136.
 (pdftex.def)             Requested size: 345.0pt x 240.10236pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--144
+Underfull \hbox (badness 10000) in paragraph at lines 134--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--144
+Underfull \hbox (badness 10000) in paragraph at lines 134--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--144
+Underfull \hbox (badness 10000) in paragraph at lines 134--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--144
+Underfull \hbox (badness 10000) in paragraph at lines 134--138
 
  []
 
 [6] [7 <./class_diagram.png>]
-<Customer_state.png, id=39, 984.67876pt x 472.76625pt>
+<Customer_state.png, id=41, 984.67876pt x 472.76625pt>
 File: Customer_state.png Graphic file (type png)
 <use Customer_state.png>
-Package pdftex.def Info: Customer_state.png  used on input line 154.
+Package pdftex.def Info: Customer_state.png  used on input line 148.
 (pdftex.def)             Requested size: 345.0pt x 165.6438pt.
-<Reservation_state.png, id=40, 1004.75375pt x 221.82875pt>
+<Reservation_state.png, id=42, 1004.75375pt x 221.82875pt>
 File: Reservation_state.png Graphic file (type png)
 <use Reservation_state.png>
-Package pdftex.def Info: Reservation_state.png  used on input line 163.
+Package pdftex.def Info: Reservation_state.png  used on input line 157.
 (pdftex.def)             Requested size: 345.0pt x 76.16881pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
-<Turnstiles_state.png, id=41, 405.515pt x 312.16624pt>
+<Turnstiles_state.png, id=43, 405.515pt x 312.16624pt>
 File: Turnstiles_state.png Graphic file (type png)
 <use Turnstiles_state.png>
-Package pdftex.def Info: Turnstiles_state.png  used on input line 172.
+Package pdftex.def Info: Turnstiles_state.png  used on input line 166.
 (pdftex.def)             Requested size: 170.71652pt x 131.41853pt.
 [8 <./Customer_state.png> <./Reservation_state.png>] [9 <./Turnstiles_state.png
 >] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 204--226
+Underfull \hbox (badness 10000) in paragraph at lines 198--220
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 250--267
+Underfull \hbox (badness 10000) in paragraph at lines 244--261
 
  []
 
 [12] [13]
-<LoginUseCase.png, id=64, 611.28375pt x 351.3125pt>
+<LoginUseCase.png, id=66, 611.28375pt x 351.3125pt>
 File: LoginUseCase.png Graphic file (type png)
 <use LoginUseCase.png>
-Package pdftex.def Info: LoginUseCase.png  used on input line 272.
+Package pdftex.def Info: LoginUseCase.png  used on input line 266.
 (pdftex.def)             Requested size: 345.0pt x 198.27214pt.
  [14]
-<SignUpUseCase.png, id=68, 611.28375pt x 502.87875pt>
+<SignUpUseCase.png, id=70, 611.28375pt x 502.87875pt>
 File: SignUpUseCase.png Graphic file (type png)
 <use SignUpUseCase.png>
-Package pdftex.def Info: SignUpUseCase.png  used on input line 277.
+Package pdftex.def Info: SignUpUseCase.png  used on input line 271.
 (pdftex.def)             Requested size: 345.0pt x 283.81241pt.
-<RegistrationStoreUseCase.png, id=69, 611.28375pt x 570.13pt>
+<RegistrationStoreUseCase.png, id=71, 611.28375pt x 570.13pt>
 File: RegistrationStoreUseCase.png Graphic file (type png)
 <use RegistrationStoreUseCase.png>
-Package pdftex.def Info: RegistrationStoreUseCase.png  used on input line 282.
+Package pdftex.def Info: RegistrationStoreUseCase.png  used on input line 276.
 (pdftex.def)             Requested size: 345.0pt x 321.76738pt.
  [15 <./LoginUseCase.png> <./SignUpUseCase.png>]
-<LineUpUseCase.png, id=75, 611.28375pt x 604.2575pt>
+<LineUpUseCase.png, id=77, 611.28375pt x 604.2575pt>
 File: LineUpUseCase.png Graphic file (type png)
 <use LineUpUseCase.png>
-Package pdftex.def Info: LineUpUseCase.png  used on input line 287.
+Package pdftex.def Info: LineUpUseCase.png  used on input line 281.
 (pdftex.def)             Requested size: 345.0pt x 341.02809pt.
  [16 <./RegistrationStoreUseCase.png>]
-<BookVisitUseCase.png, id=80, 611.28375pt x 503.8825pt>
+<BookVisitUseCase.png, id=82, 539.01375pt x 470.75874pt>
 File: BookVisitUseCase.png Graphic file (type png)
 <use BookVisitUseCase.png>
-Package pdftex.def Info: BookVisitUseCase.png  used on input line 292.
-(pdftex.def)             Requested size: 345.0pt x 284.3789pt.
+Package pdftex.def Info: BookVisitUseCase.png  used on input line 286.
+(pdftex.def)             Requested size: 345.0pt x 301.31331pt.
  [17 <./LineUpUseCase.png>]
-<CancelReservationUseCase.png, id=85, 611.28375pt x 293.095pt>
+<CancelReservationUseCase.png, id=87, 611.28375pt x 293.095pt>
 File: CancelReservationUseCase.png Graphic file (type png)
 <use CancelReservationUseCase.png>
-Package pdftex.def Info: CancelReservationUseCase.png  used on input line 297.
+Package pdftex.def Info: CancelReservationUseCase.png  used on input line 291.
 (pdftex.def)             Requested size: 345.0pt x 165.4156pt.
-<GetOutLineUseCase.png, id=86, 611.28375pt x 230.8625pt>
+<GetOutLineUseCase.png, id=88, 611.28375pt x 230.8625pt>
 File: GetOutLineUseCase.png Graphic file (type png)
 <use GetOutLineUseCase.png>
-Package pdftex.def Info: GetOutLineUseCase.png  used on input line 302.
+Package pdftex.def Info: GetOutLineUseCase.png  used on input line 296.
 (pdftex.def)             Requested size: 345.0pt x 130.2931pt.
  [18 <./BookVisitUseCase.png> <./CancelReservationUseCase.png>]
-<PrintTicketUseCase.png, id=92, 611.28375pt x 444.66125pt>
+<PrintTicketUseCase.png, id=94, 611.28375pt x 444.66125pt>
 File: PrintTicketUseCase.png Graphic file (type png)
 <use PrintTicketUseCase.png>
-Package pdftex.def Info: PrintTicketUseCase.png  used on input line 307.
+Package pdftex.def Info: PrintTicketUseCase.png  used on input line 301.
 (pdftex.def)             Requested size: 345.0pt x 250.95589pt.
-<ReachStoreUseCase.png, id=93, 611.28375pt x 323.2075pt>
+<ReachStoreUseCase.png, id=95, 611.28375pt x 323.2075pt>
 File: ReachStoreUseCase.png Graphic file (type png)
 <use ReachStoreUseCase.png>
-Package pdftex.def Info: ReachStoreUseCase.png  used on input line 312.
+Package pdftex.def Info: ReachStoreUseCase.png  used on input line 306.
 (pdftex.def)             Requested size: 345.0pt x 182.41037pt.
  [19 <./GetOutLineUseCase.png> <./PrintTicketUseCase.png>]
-<CheckCustomerCounterUseCase.png, id=100, 611.28375pt x 258.9675pt>
+<CheckCustomerCounterUseCase.png, id=102, 611.28375pt x 258.9675pt>
 File: CheckCustomerCounterUseCase.png Graphic file (type png)
 <use CheckCustomerCounterUseCase.png>
 Package pdftex.def Info: CheckCustomerCounterUseCase.png  used on input line 31
-7.
+1.
 (pdftex.def)             Requested size: 345.0pt x 146.15488pt.
-<LoginSequence.png, id=101, 493.845pt x 375.20175pt>
+<LoginSequence.png, id=103, 493.845pt x 375.20175pt>
 File: LoginSequence.png Graphic file (type png)
 <use LoginSequence.png>
-Package pdftex.def Info: LoginSequence.png  used on input line 324.
+Package pdftex.def Info: LoginSequence.png  used on input line 318.
 (pdftex.def)             Requested size: 345.0pt x 262.11272pt.
  [20 <./ReachStoreUseCase.png> <./CheckCustomerCounterUseCase.png>]
-<SignUpSequence.png, id=107, 487.8225pt x 314.97675pt>
+<SignUpSequence.png, id=109, 487.8225pt x 314.97675pt>
 File: SignUpSequence.png Graphic file (type png)
 <use SignUpSequence.png>
-Package pdftex.def Info: SignUpSequence.png  used on input line 329.
+Package pdftex.def Info: SignUpSequence.png  used on input line 323.
 (pdftex.def)             Requested size: 345.0pt x 222.76033pt.
-<RegistrationSequence.png, id=108, 510.708pt x 462.528pt>
+<RegistrationSequence.png, id=110, 510.708pt x 462.528pt>
 File: RegistrationSequence.png Graphic file (type png)
 <use RegistrationSequence.png>
-Package pdftex.def Info: RegistrationSequence.png  used on input line 334.
+Package pdftex.def Info: RegistrationSequence.png  used on input line 328.
 (pdftex.def)             Requested size: 345.0pt x 312.4611pt.
 
 [21 <./LoginSequence.png> <./SignUpSequence.png>]
-<LineUpSequence.png, id=114, 460.72125pt x 584.78474pt>
+<LineUpSequence.png, id=116, 460.72125pt x 584.78474pt>
 File: LineUpSequence.png Graphic file (type png)
 <use LineUpSequence.png>
-Package pdftex.def Info: LineUpSequence.png  used on input line 339.
+Package pdftex.def Info: LineUpSequence.png  used on input line 333.
 (pdftex.def)             Requested size: 345.0pt x 437.90039pt.
  [22 <./RegistrationSequence.png>]
-<BookSequence.png, id=119, 404.712pt x 579.3645pt>
+<BookSequence.png, id=121, 404.712pt x 579.3645pt>
 File: BookSequence.png Graphic file (type png)
 <use BookSequence.png>
-Package pdftex.def Info: BookSequence.png  used on input line 344.
+Package pdftex.def Info: BookSequence.png  used on input line 338.
 (pdftex.def)             Requested size: 345.0pt x 493.91197pt.
  [23 <./LineUpSequence.png>]
-<CancelReservationSequence.png, id=124, 494.44725pt x 372.1905pt>
+<CancelReservationSequence.png, id=126, 494.44725pt x 372.1905pt>
 File: CancelReservationSequence.png Graphic file (type png)
 <use CancelReservationSequence.png>
-Package pdftex.def Info: CancelReservationSequence.png  used on input line 349.
+Package pdftex.def Info: CancelReservationSequence.png  used on input line 343.
 
 (pdftex.def)             Requested size: 345.0pt x 259.69673pt.
  [24 <./BookSequence.png>]
-<OutOfLineSequence.png, id=129, 547.44525pt x 340.8735pt>
+<OutOfLineSequence.png, id=131, 547.44525pt x 340.8735pt>
 File: OutOfLineSequence.png Graphic file (type png)
 <use OutOfLineSequence.png>
-Package pdftex.def Info: OutOfLineSequence.png  used on input line 354.
+Package pdftex.def Info: OutOfLineSequence.png  used on input line 348.
 (pdftex.def)             Requested size: 345.0pt x 214.81905pt.
-<PrintTicketSequence.png, id=130, 499.26524pt x 320.99925pt>
+<PrintTicketSequence.png, id=132, 499.26524pt x 320.99925pt>
 File: PrintTicketSequence.png Graphic file (type png)
 <use PrintTicketSequence.png>
-Package pdftex.def Info: PrintTicketSequence.png  used on input line 359.
+Package pdftex.def Info: PrintTicketSequence.png  used on input line 353.
 (pdftex.def)             Requested size: 345.0pt x 221.81789pt.
  [25 <./CancelReservationSequence.png> <./OutOfLineSequence.png>]
-<ReachStoreSequence.png, id=137, 510.708pt x 570.33075pt>
+<ReachStoreSequence.png, id=139, 510.708pt x 570.33075pt>
 File: ReachStoreSequence.png Graphic file (type png)
 <use ReachStoreSequence.png>
-Package pdftex.def Info: ReachStoreSequence.png  used on input line 364.
+Package pdftex.def Info: ReachStoreSequence.png  used on input line 358.
 (pdftex.def)             Requested size: 345.0pt x 385.28734pt.
  [26 <./PrintTicketSequence.png>]
 [27 <./ReachStoreSequence.png>] [28] (./RASD.aux) ) 
 Here is how much of TeX's memory you used:
- 12499 strings out of 480608
- 256844 string characters out of 5903629
+ 12505 strings out of 480608
+ 256917 string characters out of 5903629
  477240 words of memory out of 5000000
- 28146 multiletter control sequences out of 15000+600000
+ 28151 multiletter control sequences out of 15000+600000
  540464 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,7n,65p,1489b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -701,10 +701,10 @@ t/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2020/texmf-dist/
 fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2020/texmf-dist/fo
 nts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/texmf-dist/font
 s/type1/public/cm-super/sfrm1728.pfb>
-Output written on RASD.pdf (28 pages, 2406112 bytes).
+Output written on RASD.pdf (28 pages, 2469473 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
