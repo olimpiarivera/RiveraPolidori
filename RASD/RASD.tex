@@ -178,7 +178,7 @@ As mentioned before, after choosing the store, the user also has the option to b
 \subsubsection{Manage lines} 
 The CLup system has to manage the lining up mechanism effectively. First of all, the waiting time assigned to customers that get in line, can change depending on several events. In particular, whenever a customer either gets out of the line or cancels a slot reservation, the system is able to decrease the waiting times of the users currently in line and optimize the influx of people. The waiting time can also decrease in the event that someone does not show up when his/her turn is arrived (there will be a fixed maximum delay tolerated by the system). Each user (for both the basic and advanced functionality) is asked to provide the expected amount of time they intend to spend inside the store, alternatively, users can choose to let the system infer that time (only if the system has enough data). Indeed, for each user, the system will collect and store informations about the duration of his/her visits and estimate an average. As a consequence, whenever a user’s visit lasts longer or less than the estimated time, the waiting time of the users in line can be optimized (increased or decreased). Ultimately, the system is also able to handle people who do not have access to the required technology. The store manager (or one of his employees) will print a number and a QR code for those who have to physically get in line and the system will take them into account when scheduling the next entrances (they will be assigned a fixed time of stay in the shop).
 \subsubsection{Keep track of accesses} 
-The CLup system is also meant to be used by store managers to keep track of entrances in their buildings. This is possible thanks to the smart turnstiles that scan the QR codes and let people in or out (only if the QR code is not expired or false). Consequentially, a customer counter is updated  so that stores managers can check whether their store’s capacity is respected.
+The CLup system is also meant to be used by store managers to keep track of entrances in their buildings. This is possible thanks to the smart turnstiles that scan the QR codes. The system check the validity of the QR codes (not expired or false) and allow the turnstiles to unlock to let people in or out. Consequentially, a customer counter is updated  so that stores managers can check whether their store’s capacity is respected.
 \subsection{User Characteristics}
 The application is supposed to be used by the following actors:
 \begin{enumerate}
@@ -195,30 +195,10 @@ Depending on the service used, the following distinction can be done:
 The system will have to ask users' permission to retrieve and use their positions without storing them. Moreover, the collection and treatment of personal data must comply with the principles and rules of the General Data Protection Regulation.
 \subsection{Assumptions and Dependancies}
 \subsubsection{Domain assumptions}
-\noindent\medskip
-[D1] - GPS provides the exact location with an error of 5 meters at most.\\
-\noindent\medskip
-[D2] - The time calculated from Google Maps to reach the store is correct.\\
-\noindent\medskip
-[D3] - The user does not to arrive earlier than the indicated time.\\
-\noindent\medskip
-[D4] - The user follows the shortest path to the store, without making deviations and stops.\\
-\noindent\medskip
-[D5] - Each reservation is meant to be for one and only one person.\\
-\noindent\medskip
-[D6] - The turnstiles let you in or out only if the scanned QR code is valid.\\
-\noindent\medskip
-[D7] - One person at a time passes through the turnstiles every time a QR code is scanned.\\
-\noindent\medskip
-[D8] - The user does not change location while is waiting for his/her turn.\\
-\noindent\medskip
-[D9] - The user does not change the indicated means of transport.\\
-\noindent\medskip
-[D10] - The user respects slots' time boundaries.\\
-\noindent\medskip
-[D11] - The user respects social distancing inside the store.\\
-\noindent\medskip
-[D12] - The user visits only the departments related to the product types he/her specified.\\
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{Domains.png}
+  
+\end{figure}
 
 \section{Specific Requirements}
 \subsection{External Interface Requirements}
@@ -240,6 +220,15 @@ The external interfaces required by the system are listed below:
 \end{itemize}
 \subsection{Functional Requirements}
 \subsubsection{List of Requirements}
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{Requirements1.png}
+  
+\end{figure}
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{Requirements2.png}
+  
+\end{figure}
+
 \subsubsection{Mapping}
 \subsubsection{Scenarios}
 \medskip
