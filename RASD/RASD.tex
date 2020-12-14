@@ -174,8 +174,6 @@ Depending on the service used, the following distinction can be done:
 \item\textbf{Unregistered user}: someone who do not have access to the required technology and therefore is not registered to CLup services. The only way in which he/she interacts with the system is by physically retrieving a turn number and a QR code from the ticket dispenser located at the store. The system will take into account this actor when scheduling the next entrances
 \item\textbf{Store manager}: someone who is responsible for managing a store and registers to CLup to monitor the influx of people in his/her building.
 \end{enumerate}
-\subsection{Constraints}
-The system will have to ask users' permission to retrieve and use their positions without storing them. Moreover, the collection and treatment of personal data must comply with the principles and rules of the General Data Protection Regulation (GDPR).
 \subsection{Assumptions and Dependancies}
 \subsubsection{Domain assumptions}
 \begin{figure}[H]
@@ -186,7 +184,7 @@ The system will have to ask users' permission to retrieve and use their position
 \section{Specific Requirements}
 \subsection{External Interface Requirements}
 \subsubsection{User Interfaces}
-The following mockups give an idea of the application looks like on the user’s smartphone. They show some screenshots of the most relevant interactions between the system and the registered users.
+The following mockups give an idea of how the application looks like on the user’s smartphone. They show some screenshots of the most relevant interactions between the system and the registered users.
 \subsubsection{Hardware Interfaces}
 The required hardware interfaces are listed below:
 \begin{itemize}
@@ -374,9 +372,15 @@ Paola is the manager of a big Esselunga store in Milan. During the day, she peri
 It is important to remark that the CLup system provides services that help people to avoid risks and to respect the limitations imposed by the coronavirus emergency. For this reason, the system has to be able to serve a great number of users and store managers simultaneously. The system also has to be able to update the waiting times seen by the users in a quick, reactive and correct way, as soon as they change in the system’s database.
 
 \subsection{Design Constraints}
-\subsubsection{Standards compliance}
 \subsubsection{Hardware limitations}
+The hardware requirements needed in order to use the system’s functionalities on the mobile app are the following:
+\begin{itemize}
+\item iOS or Android smartphone 
+\item GPS
+\item Connection to internet (Wi-Fi/4G/3G/2G) 
+\end{itemize}
 \subsubsection{Any other constraints}
+The system will have to ask users' permission to retrieve and use their positions without storing them. Moreover, the collection and treatment of personal data must comply with the principles and rules of the General Data Protection Regulation (GDPR).
 
 \subsection{Software System Attributes}
 \subsubsection{Reliability and Availability}
