@@ -401,6 +401,17 @@ The WebApp must be compatible with the most popular browsers, while the smartpho
 
 \section{Formal Analysis Using Alloy}
 
+In this section we present our alloy code and results. We decided to focus on part of system's aspects with the aim to model these constraints:
+\begin{itemize}
+\item A notification is shown to a lined-up User if waiting time approaches time to arrive
+\item No overlaps between same user's reservations' timeslots
+\item Every QRcode is associated to only one reservation or turn number
+\item In a queue, waiting time associated to a turn number is <= waiting time associated to the next turn numbers
+\item A store's counter can't exceed store's capacity
+
+\end{itemize}
+To simplify alloy modelling we decided to show the notification if "waiting time" is equal to the "time to arrive", even if in the real application the notification is shown when one is approaching the other (with a delta of few minutes).
+
 \begin{lstlisting}[language=alloy]
 
 open util/integer
