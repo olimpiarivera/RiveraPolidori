@@ -1,5 +1,8 @@
 \DeclareUnicodeCharacter{2028}{} 
 \documentclass{article}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{listings}
+\usepackage{alloy-style}
 \usepackage{blindtext}
 \usepackage[section]{placeins}
 \usepackage[T1]{fontenc}
@@ -397,6 +400,265 @@ The WebApp must be compatible with the most popular browsers, while the smartpho
 \subsection{Additional Specifications}
 
 \section{Formal Analysis Using Alloy}
+
+\begin{lstlisting}[language=alloy]
+
+open util/integer
+
+
+sig Time {
+    minutes: one Int
+}
+
+{ minutes >= 0 }
+
+sig Date { }
+
+sig Location {
+	timeToArrive: one Time
+}
+{
+	timeToArrive.minutes>0
+}
+
+sig QRcode { }
+
+sig User { 
+    reservations: set Reservation,
+    turnNumber: lone TurnNumber,
+    notification: lone Notification,
+    queue: lone Queue
+}
+
+sig Notification {
+	user: one User
+}
+
+sig TurnNumber {
+    
+    user: one User,
+    qrCode: one QRcode,
+    number: one Int,
+    location: one Location,
+    queue: one Queue,
+    waitingTime: one Time,
+    
+
+ }{
+     
+     number>0 and
+     (waitingTime.minutes >= 0) and
+     (location.timeToArrive.minutes >= 0) and
+     (waitingTime.minutes >= location.timeToArrive.minutes) 
+      
+ }
+
+sig Reservation {
+
+    startTime: one Time,
+    endTime: one Time,
+    date: one Date,
+    user: one User,
+	duration: one Int,
+    qrCode: one QRcode
+}{
+
+(sub[endTime.minutes, startTime.minutes] >= duration) and
+(startTime.minutes < endTime.minutes) and
+(duration > 0)
+
+}
+
+sig Queue { 
+    turnNumbers: set TurnNumber,
+    store: one Store
+}{
+
+    all disj t,t': TurnNumber | t.number != t'.number
+    all disj t,t',t'': TurnNumber | all x: Int | all y: Int | x>0 and y < x and (t''.number = t.number+x implies t'.number = t.number+y )
+   
+
+}
+
+
+sig Store { 
+    queue: one Queue,
+    capacity: one Int,
+    counter: lone Counter
+}{
+	capacity>0
+}
+
+sig Counter{
+	count: one Int,
+    store: one Store
+}{
+	count >= 0
+}
+
+--All Dates must be associated to a Reservation
+fact DatesToReservation{
+	
+	all d: Date | some r: Reservation | d = r.date
+}
+
+--All locations must be associated to a TurnNumber
+fact LocationsToTurnNumber{
+
+	all l: Location | some t: TurnNumber | l = t.location
+}
+
+--Various relations between signatures
+
+
+fact reservationsUsersRelation{
+
+    all u: User | all r: Reservation | (r in u.reservations implies r.user = u) and (r.user = u implies r in u.reservations)
+}
+
+fact queuesStoresRelation{
+
+    all q: Queue | all s: Store | (q = s.queue implies q.store = s) and (s = q.store implies s.queue = q)
+}
+
+fact counterStoreRelation{
+	all c: Counter | all s: Store | (c = s.counter implies c.store = s) and (c.store = s implies c = s.counter )
+}
+
+fact uniqueTimes{
+	no disj t1,t2: Time | t1.minutes = t2.minutes
+}
+
+--A turnNumber can't be associated to more than one QRCode  or to more than one user
+
+fact turnNumbersUsersUniqueness{
+
+    all u: User | all t: TurnNumber | (t = u.turnNumber implies t.user = u) and (u = t.user implies u.turnNumber = t)
+}
+
+fact turnNumbersQueuesUniqueness{
+
+    all q: Queue | all t: TurnNumber | (t in q.turnNumbers implies t.queue = q) and (q = t.queue implies t in q.turnNumbers)
+}
+
+--Users can't be in more than one queue
+
+fact usersQueuesUniqueness{
+	all u: User | all disj q1,q2: Queue | (u in q1.turnNumbers.user) implies (u not in q2.turnNumbers.user)
+}
+
+--notifications can't exist on their own
+fact notificationsUsersRelation{
+
+	all n: Notification | all u: User | (n = u.notification implies n.user = u) and (u = n.user implies u.notification = n)
+
+}
+
+--QRcodes are associated to only one turnNumber/Reservation
+fact uniqueQRcodes{
+
+    all disj r,r': Reservation | r.qrCode != r'.qrCode
+    all disj t,t': TurnNumber | t.qrCode != t'.qrCode
+    all r: Reservation | all t: TurnNumber | r.qrCode != t.qrCode
+}
+
+--There are no overlaps between same user's reservations on the same date
+fact noReservationsOverlaps{
+
+	no disj r',r'': Reservation | r'.date = r''.date and r'.user = r''.user and r'.startTime.minutes <= r''.startTime.minutes and
+    r'.endTime.minutes >= r''.startTime.minutes
+}
+
+--Waiting time associated to a TurnNumber is <= waiting time associated to the next turnNumbers
+
+fact turnNumbersOrder{
+	
+	all disj t1,t2: TurnNumber | (t1.number > t2.number and t1.queue = t2.queue) implies (t1.waitingTime.minutes > t2.waitingTime.minutes)
+
+}
+
+--Different locations have different timeToArrive
+
+fact locationsTimes{
+	no disj l1,l2: Location | l1.timeToArrive = l2.timeToArrive
+}
+
+--if waitingTime = timeToArrive, user receives the notification
+
+fact notificationArrived{
+
+   all u: User | (u.turnNumber.waitingTime.minutes != u.turnNumber.location.timeToArrive.minutes ) implies (no u.notification) and (no u.notification) implies (u.turnNumber.waitingTime.minutes != u.turnNumber.location.timeToArrive.minutes ) 
+   all u: User | (u.turnNumber.waitingTime.minutes = u.turnNumber.location.timeToArrive.minutes ) implies (u.notification != none) and 	(u.notification != none) implies (u.turnNumber.waitingTime.minutes = u.turnNumber.location.timeToArrive.minutes )
+       
+}
+
+--A store's counter can't be higher than his capacity
+fact CounterNotHigherThanCapacity{
+	all s: Store | s.counter.count <= s.capacity
+
+}
+
+pred show{}
+pred noOverlapReservations{}
+pred yesNotification{
+	
+	some u:User | #u.turnNumber.waitingTime.minutes = #u.turnNumber.location.timeToArrive.minutes
+
+}
+pred noNotification{}
+
+--QrCode is associated to only one thing (Reservations or TurnNumbers)
+assert QrCodeDifferentForDifferentThings{
+	all t: TurnNumber | all r: Reservation | t.qrCode != r.qrCode
+    all disj t1,t2: TurnNumber | t1.qrCode != t2.qrCode
+    all disj r1,r2: Reservation | r1.qrCode != r2.qrCode
+}
+
+
+run storeCapacity for 4 but exactly 3 Store, 0 User, 0 QRcode, 0 Time
+run noOverlapReservations for 6 but 1 User, exactly 3 Reservation, 0 Notification
+run yesNotification for 3 but 1 User, 1 Store
+run noNotification for 3 but exactly 0 Notification, 1 User, 1 Store, 0 Reservation
+
+check QrCodeDifferentForDifferentThings
+
+\end{lstlisting}
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{NoOverlapReservations}
+  \caption{No overlaps in reservations' timeslots}
+  
+\end{figure}
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{NoNotification}
+  \caption{No notifications when waiting time is not equal to time to arrive}
+  
+\end{figure}
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{yesNotification}
+  \caption{User gets a notification when waiting time is equal to time to arrive}
+  
+\end{figure}
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{waitingTime}
+  \caption{Greater TurnNumbers have greater waiting times}
+  
+\end{figure}
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{storeCapacity}
+  \caption{Store's counter is less or equal store's capacity}
+  
+\end{figure}
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{QrCodeAssertion}
+  \caption{QrCode uniqueness assertion's result}
+  
+\end{figure}
 
 \section{Effort Spent}
 
