@@ -13,6 +13,8 @@
 \usetikzlibrary{calc}
 \usetikzlibrary{arrows.meta}
 \usepackage{graphicx}
+\usepackage{hyperref}
+
 
 
 
@@ -305,7 +307,7 @@ The required hardware interfaces are listed below:
 The external interfaces required by the system are listed below:
 \begin{itemize}
 \item Position: the system uses a Maps Service API to retrieve the position of the user when he/she gets into a line in order to calculate his/her distance from the store and to show to the user the estimated time needed to reach the store.
-\item Turnstile: the system needs to communicate with the turnstiles' software in order to receive the informations related to the scanned QR codes and to the entrances/exits timestamps.
+\item Turnstile: the system needs to communicate with the turnstiles' software in order to receive the informations related to the scanned QR codes and to the entrances/exits timestamps. This communication occurs between the store's computer and the turnstiles' integrated controller over LAN.
 \end{itemize}
 \subsection{Functional Requirements}
 \subsubsection{List of Requirements}
@@ -799,6 +801,10 @@ check QrCodeDifferentForDifferentThings
 
 
 \section{Reference Documents}
+\begin{itemize}
+\item The diagrams in the document have been made with \url{https://staruml.io} and \url{https://www.draw.io}
+\item Alloy code documentation supported the code deployment: \url{http://alloy.mit.edu/}
+\end{itemize}
 
 
 

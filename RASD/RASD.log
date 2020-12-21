@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.16)  20 DEC 2020 20:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.16)  21 DEC 2020 21:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -443,41 +443,166 @@ File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfarrowwidth=\dimen193
 \pgfarrowlinewidth=\dimen194
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen195
+\Hy@linkcounter=\count289
+\Hy@pagecounter=\count290
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count291
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count292
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen196
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count293
+\Field@Width=\dimen197
+\Fld@charsize=\dimen198
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count294
+\c@Item=\count295
+\c@Hfootnote=\count296
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count297
+\c@bookmark@seq@number=\count298
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip52
+)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count289
+\l__kernel_color_stack_int=\count299
 \l__pdf_internal_box=\box60
 )
 (./RASD.aux)
 \openout1 = `RASD.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
-\scratchdimen=\dimen195
+\scratchcounter=\count300
+\scratchdimen=\dimen199
 \scratchbox=\box61
-\nofMPsegments=\count291
-\nofMParguments=\count292
+\nofMPsegments=\count301
+\nofMParguments=\count302
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count293
-\MPscratchDim=\dimen196
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
+\MPscratchCnt=\count303
+\MPscratchDim=\dimen256
+\MPnumerator=\count304
+\makeMPintoPDFobject=\count305
 \everyMPtoPDFconversion=\toks34
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -488,24 +613,47 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count296
+\c@lstlisting=\count306
 
 ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box62
+Package hyperref Info: Link coloring OFF on input line 30.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count307
+)
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
+ (./RASD.out) (./RASD.out)
+\@outlinefile=\write4
+\openout4 = `RASD.out'.
+
+
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 32.
+               Default added (so using `tbp') on input line 34.
 
-<logo_politecnico.png, id=4, 1124.2pt x 211.79124pt>
+<logo_politecnico.png, id=203, 1124.2pt x 211.79124pt>
 File: logo_politecnico.png Graphic file (type png)
 <use logo_politecnico.png>
-Package pdftex.def Info: logo_politecnico.png  used on input line 33.
+Package pdftex.def Info: logo_politecnico.png  used on input line 35.
 (pdftex.def)             Requested size: 345.0pt x 64.99535pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 36.
+(Font)              <12> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 36.
+(Font)              <8> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 36.
+(Font)              <6> on input line 39.
 (./RASD.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
@@ -515,429 +663,444 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo_
 politecnico.png>])
-\tf@toc=\write4
-\openout4 = `RASD.toc'.
+\tf@toc=\write5
+\openout5 = `RASD.toc'.
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 51--54
+Underfull \hbox (badness 10000) in paragraph at lines 53--56
 
  []
 
 [3]
-<WorldPhenomena.png, id=24, 638.385pt x 179.67125pt>
+<WorldPhenomena.png, id=276, 638.385pt x 179.67125pt>
 File: WorldPhenomena.png Graphic file (type png)
 <use WorldPhenomena.png>
-Package pdftex.def Info: WorldPhenomena.png  used on input line 63.
+Package pdftex.def Info: WorldPhenomena.png  used on input line 65.
 (pdftex.def)             Requested size: 345.0pt x 97.09778pt.
-<SharedPhenomena.png, id=25, 638.385pt x 424.58624pt>
+<SharedPhenomena.png, id=277, 638.385pt x 424.58624pt>
 File: SharedPhenomena.png Graphic file (type png)
 <use SharedPhenomena.png>
-Package pdftex.def Info: SharedPhenomena.png  used on input line 70.
+Package pdftex.def Info: SharedPhenomena.png  used on input line 72.
 (pdftex.def)             Requested size: 345.0pt x 229.45456pt.
  [4 <./WorldPhenomena.png>]
-<Goals.png, id=30, 699.61375pt x 235.88126pt>
+<Goals.png, id=283, 699.61375pt x 235.88126pt>
 File: Goals.png Graphic file (type png)
 <use Goals.png>
-Package pdftex.def Info: Goals.png  used on input line 77.
+Package pdftex.def Info: Goals.png  used on input line 79.
 (pdftex.def)             Requested size: 345.0pt x 116.32066pt.
  [5 <./SharedPhenomena.png> <./Goals.png>]
 [6]
-<class_diagram.png, id=39, 1204.5pt x 870.25125pt>
+<class_diagram.png, id=294, 1204.5pt x 870.25125pt>
 File: class_diagram.png Graphic file (type png)
 <use class_diagram.png>
-Package pdftex.def Info: class_diagram.png  used on input line 122.
+Package pdftex.def Info: class_diagram.png  used on input line 124.
 (pdftex.def)             Requested size: 345.0pt x 249.25912pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
 
  []
 
 [7] [8 <./class_diagram.png>]
-<Customer_state.png, id=48, 984.67876pt x 472.76625pt>
+<Customer_state.png, id=305, 984.67876pt x 472.76625pt>
 File: Customer_state.png Graphic file (type png)
 <use Customer_state.png>
-Package pdftex.def Info: Customer_state.png  used on input line 134.
+Package pdftex.def Info: Customer_state.png  used on input line 136.
 (pdftex.def)             Requested size: 345.0pt x 165.6438pt.
-<Reservation_state.png, id=49, 1004.75375pt x 221.82875pt>
+<Reservation_state.png, id=306, 1004.75375pt x 221.82875pt>
 File: Reservation_state.png Graphic file (type png)
 <use Reservation_state.png>
-Package pdftex.def Info: Reservation_state.png  used on input line 143.
+Package pdftex.def Info: Reservation_state.png  used on input line 145.
 (pdftex.def)             Requested size: 345.0pt x 76.16881pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
-<Turnstiles_state.png, id=50, 405.515pt x 312.16624pt>
+<Turnstiles_state.png, id=307, 405.515pt x 312.16624pt>
 File: Turnstiles_state.png Graphic file (type png)
 <use Turnstiles_state.png>
-Package pdftex.def Info: Turnstiles_state.png  used on input line 152.
+Package pdftex.def Info: Turnstiles_state.png  used on input line 154.
 (pdftex.def)             Requested size: 170.71652pt x 131.41853pt.
 [9 <./Customer_state.png> <./Reservation_state.png>] [10 <./Turnstiles_state.pn
 g>] [11]
-<Domains.png, id=63, 638.385pt x 519.9425pt>
+<Domains.png, id=325, 638.385pt x 519.9425pt>
 File: Domains.png Graphic file (type png)
 <use Domains.png>
-Package pdftex.def Info: Domains.png  used on input line 183.
+Package pdftex.def Info: Domains.png  used on input line 185.
 (pdftex.def)             Requested size: 345.0pt x 280.98691pt.
  [12 <./Domains.png>]
-<home.png, id=68, 310.15875pt x 667.49374pt>
+<home.png, id=333, 310.15875pt x 667.49374pt>
 File: home.png Graphic file (type png)
 <use home.png>
-Package pdftex.def Info: home.png  used on input line 195.
+Package pdftex.def Info: home.png  used on input line 197.
 (pdftex.def)             Requested size: 137.9979pt x 296.97777pt.
-<login.png, id=69, 310.15875pt x 668.4975pt>
+<login.png, id=334, 310.15875pt x 668.4975pt>
 File: login.png Graphic file (type png)
 <use login.png>
-Package pdftex.def Info: login.png  used on input line 201.
+Package pdftex.def Info: login.png  used on input line 203.
 (pdftex.def)             Requested size: 137.9979pt x 297.42435pt.
-<FunctionalitySelection.png, id=70, 310.15875pt x 668.4975pt>
+<FunctionalitySelection.png, id=335, 310.15875pt x 668.4975pt>
 File: FunctionalitySelection.png Graphic file (type png)
 <use FunctionalitySelection.png>
-Package pdftex.def Info: FunctionalitySelection.png  used on input line 209.
+Package pdftex.def Info: FunctionalitySelection.png  used on input line 211.
 (pdftex.def)             Requested size: 137.9979pt x 297.42435pt.
-<ChooseStore.png, id=71, 310.15875pt x 668.4975pt>
+<ChooseStore.png, id=336, 310.15875pt x 668.4975pt>
 File: ChooseStore.png Graphic file (type png)
 <use ChooseStore.png>
-Package pdftex.def Info: ChooseStore.png  used on input line 215.
+Package pdftex.def Info: ChooseStore.png  used on input line 217.
 (pdftex.def)             Requested size: 137.9979pt x 297.42435pt.
  [13 <./home.png> <./login.png>]
-<VisitDuration.png, id=78, 310.15875pt x 668.4975pt>
+<VisitDuration.png, id=346, 310.15875pt x 668.4975pt>
 File: VisitDuration.png Graphic file (type png)
 <use VisitDuration.png>
-Package pdftex.def Info: VisitDuration.png  used on input line 223.
+Package pdftex.def Info: VisitDuration.png  used on input line 225.
 (pdftex.def)             Requested size: 137.9979pt x 297.42435pt.
-<MeansofTransport.png, id=79, 310.15875pt x 668.4975pt>
+<MeansofTransport.png, id=347, 310.15875pt x 668.4975pt>
 File: MeansofTransport.png Graphic file (type png)
 <use MeansofTransport.png>
-Package pdftex.def Info: MeansofTransport.png  used on input line 229.
+Package pdftex.def Info: MeansofTransport.png  used on input line 231.
 (pdftex.def)             Requested size: 137.9979pt x 297.42435pt.
  [14 <./FunctionalitySelection.png> <./ChooseStore.png>]
-<QRcode.png, id=85, 310.15875pt x 668.4975pt>
+<QRcode.png, id=356, 310.15875pt x 668.4975pt>
 File: QRcode.png Graphic file (type png)
 <use QRcode.png>
-Package pdftex.def Info: QRcode.png  used on input line 237.
+Package pdftex.def Info: QRcode.png  used on input line 239.
 (pdftex.def)             Requested size: 137.9979pt x 297.42435pt.
-<Waiting.png, id=86, 310.15875pt x 668.4975pt>
+<Waiting.png, id=357, 310.15875pt x 668.4975pt>
 File: Waiting.png Graphic file (type png)
 <use Waiting.png>
-Package pdftex.def Info: Waiting.png  used on input line 243.
+Package pdftex.def Info: Waiting.png  used on input line 245.
 (pdftex.def)             Requested size: 137.9979pt x 297.42435pt.
  [15 <./VisitDuration.png> <./MeansofTransport.png>]
-<Timeslot.png, id=92, 310.15875pt x 668.4975pt>
+<Timeslot.png, id=366, 310.15875pt x 668.4975pt>
 File: Timeslot.png Graphic file (type png)
 <use Timeslot.png>
-Package pdftex.def Info: Timeslot.png  used on input line 251.
+Package pdftex.def Info: Timeslot.png  used on input line 253.
 (pdftex.def)             Requested size: 137.9979pt x 297.42435pt.
-<Warning.png, id=93, 310.15875pt x 668.4975pt>
+<Warning.png, id=367, 310.15875pt x 668.4975pt>
 File: Warning.png Graphic file (type png)
 <use Warning.png>
-Package pdftex.def Info: Warning.png  used on input line 257.
+Package pdftex.def Info: Warning.png  used on input line 259.
 (pdftex.def)             Requested size: 137.9979pt x 297.42435pt.
  [16 <./QRcode.png> <./Waiting.png>]
-<ProductCategories.png, id=99, 310.15875pt x 668.4975pt>
+<ProductCategories.png, id=376, 310.15875pt x 668.4975pt>
 File: ProductCategories.png Graphic file (type png)
 <use ProductCategories.png>
-Package pdftex.def Info: ProductCategories.png  used on input line 263.
+Package pdftex.def Info: ProductCategories.png  used on input line 265.
 (pdftex.def)             Requested size: 137.9979pt x 297.42435pt.
  [17 <./Timeslot.png> <./Warning.png>]
-<WebAppLogin.png, id=105, 929.4725pt x 590.205pt>
+<WebAppLogin.png, id=385, 929.4725pt x 590.205pt>
 File: WebAppLogin.png Graphic file (type png)
 <use WebAppLogin.png>
-Package pdftex.def Info: WebAppLogin.png  used on input line 269.
+Package pdftex.def Info: WebAppLogin.png  used on input line 271.
 (pdftex.def)             Requested size: 345.0pt x 219.06587pt.
  [18 <./ProductCategories.png>]
-<WebAppHome.png, id=110, 929.4725pt x 590.205pt>
+<WebAppHome.png, id=392, 929.4725pt x 590.205pt>
 File: WebAppHome.png Graphic file (type png)
 <use WebAppHome.png>
-Package pdftex.def Info: WebAppHome.png  used on input line 275.
+Package pdftex.def Info: WebAppHome.png  used on input line 277.
 (pdftex.def)             Requested size: 345.0pt x 219.06587pt.
-<CustomerCounter.png, id=111, 929.4725pt x 590.205pt>
+<CustomerCounter.png, id=393, 929.4725pt x 590.205pt>
 File: CustomerCounter.png Graphic file (type png)
 <use CustomerCounter.png>
-Package pdftex.def Info: CustomerCounter.png  used on input line 281.
+Package pdftex.def Info: CustomerCounter.png  used on input line 283.
 (pdftex.def)             Requested size: 345.0pt x 219.06587pt.
  [19 <./WebAppLogin.png> <./WebAppHome.png>]
-<TicketPreview.png, id=118, 929.4725pt x 590.205pt>
+<TicketPreview.png, id=403, 929.4725pt x 590.205pt>
 File: TicketPreview.png Graphic file (type png)
 <use TicketPreview.png>
-Package pdftex.def Info: TicketPreview.png  used on input line 287.
+Package pdftex.def Info: TicketPreview.png  used on input line 289.
 (pdftex.def)             Requested size: 345.0pt x 219.06587pt.
  [20 <./CustomerCounter.png> <./TicketPreview.png>]
-<Requirements1.png, id=124, 541.02126pt x 767.86874pt>
+<Requirements1.png, id=412, 541.02126pt x 767.86874pt>
 File: Requirements1.png Graphic file (type png)
 <use Requirements1.png>
-Package pdftex.def Info: Requirements1.png  used on input line 314.
+Package pdftex.def Info: Requirements1.png  used on input line 316.
 (pdftex.def)             Requested size: 345.0pt x 489.6651pt.
-<Requirements2.png, id=125, 541.02126pt x 481.8pt>
+<Requirements2.png, id=413, 541.02126pt x 481.8pt>
 File: Requirements2.png Graphic file (type png)
 <use Requirements2.png>
-Package pdftex.def Info: Requirements2.png  used on input line 318.
+Package pdftex.def Info: Requirements2.png  used on input line 320.
 (pdftex.def)             Requested size: 345.0pt x 307.24083pt.
  [21] [22 <./Requirements1.png>]
-<Mapping1.png, id=133, 638.385pt x 547.04375pt>
+<Mapping1.png, id=423, 638.385pt x 547.04375pt>
 File: Mapping1.png Graphic file (type png)
 <use Mapping1.png>
-Package pdftex.def Info: Mapping1.png  used on input line 326.
+Package pdftex.def Info: Mapping1.png  used on input line 328.
 (pdftex.def)             Requested size: 345.0pt x 295.63293pt.
  [23 <./Requirements2.png>]
-<Mapping2.png, id=138, 638.385pt x 638.385pt>
+<Mapping2.png, id=429, 638.385pt x 638.385pt>
 File: Mapping2.png Graphic file (type png)
 <use Mapping2.png>
-Package pdftex.def Info: Mapping2.png  used on input line 331.
+Package pdftex.def Info: Mapping2.png  used on input line 333.
 (pdftex.def)             Requested size: 345.0pt x 344.9955pt.
  [24 <./Mapping1.png>]
-<Mapping3.png, id=143, 638.385pt x 636.3775pt>
+<Mapping3.png, id=435, 638.385pt x 636.3775pt>
 File: Mapping3.png Graphic file (type png)
 <use Mapping3.png>
-Package pdftex.def Info: Mapping3.png  used on input line 336.
+Package pdftex.def Info: Mapping3.png  used on input line 338.
 (pdftex.def)             Requested size: 345.0pt x 343.91061pt.
  [25 <./Mapping2.png>]
-<Mapping4.png, id=149, 638.385pt x 450.68375pt>
+<Mapping4.png, id=442, 638.385pt x 450.68375pt>
 File: Mapping4.png Graphic file (type png)
 <use Mapping4.png>
-Package pdftex.def Info: Mapping4.png  used on input line 341.
+Package pdftex.def Info: Mapping4.png  used on input line 343.
 (pdftex.def)             Requested size: 345.0pt x 243.55814pt.
 
 [26 <./Mapping3.png>]
-<Mapping5.png, id=154, 638.385pt x 665.48625pt>
+<Mapping5.png, id=448, 638.385pt x 665.48625pt>
 File: Mapping5.png Graphic file (type png)
 <use Mapping5.png>
-Package pdftex.def Info: Mapping5.png  used on input line 346.
+Package pdftex.def Info: Mapping5.png  used on input line 348.
 (pdftex.def)             Requested size: 345.0pt x 359.64154pt.
  [27 <./Mapping4.png>]
-<Mapping6.png, id=159, 638.385pt x 584.1825pt>
+<Mapping6.png, id=454, 638.385pt x 584.1825pt>
 File: Mapping6.png Graphic file (type png)
 <use Mapping6.png>
-Package pdftex.def Info: Mapping6.png  used on input line 351.
+Package pdftex.def Info: Mapping6.png  used on input line 353.
 (pdftex.def)             Requested size: 345.0pt x 315.70343pt.
  [28 <./Mapping5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 358--375
+Underfull \hbox (badness 10000) in paragraph at lines 360--377
 
  []
 
 [29 <./Mapping6.png>] [30]
-<useCasesDiagram.png, id=171, 751.608pt x 543.83176pt>
+<useCasesDiagram.png, id=469, 751.608pt x 543.83176pt>
 File: useCasesDiagram.png Graphic file (type png)
 <use useCasesDiagram.png>
-Package pdftex.def Info: useCasesDiagram.png  used on input line 379.
+Package pdftex.def Info: useCasesDiagram.png  used on input line 381.
 (pdftex.def)             Requested size: 345.0pt x 249.62625pt.
-<LoginUseCase.png, id=172, 611.28375pt x 351.3125pt>
+<LoginUseCase.png, id=470, 611.28375pt x 351.3125pt>
 File: LoginUseCase.png Graphic file (type png)
 <use LoginUseCase.png>
-Package pdftex.def Info: LoginUseCase.png  used on input line 386.
+Package pdftex.def Info: LoginUseCase.png  used on input line 388.
 (pdftex.def)             Requested size: 345.0pt x 198.27214pt.
  [31 <./useCasesDiagram.png>]
-<SignUpUseCase.png, id=178, 611.28375pt x 502.87875pt>
+<SignUpUseCase.png, id=477, 611.28375pt x 502.87875pt>
 File: SignUpUseCase.png Graphic file (type png)
 <use SignUpUseCase.png>
-Package pdftex.def Info: SignUpUseCase.png  used on input line 391.
+Package pdftex.def Info: SignUpUseCase.png  used on input line 393.
 (pdftex.def)             Requested size: 345.0pt x 283.81241pt.
-<RegistrationStoreUseCase.png, id=179, 611.28375pt x 570.13pt>
+<RegistrationStoreUseCase.png, id=478, 611.28375pt x 570.13pt>
 File: RegistrationStoreUseCase.png Graphic file (type png)
 <use RegistrationStoreUseCase.png>
-Package pdftex.def Info: RegistrationStoreUseCase.png  used on input line 396.
+Package pdftex.def Info: RegistrationStoreUseCase.png  used on input line 398.
 (pdftex.def)             Requested size: 345.0pt x 321.76738pt.
  [32 <./LoginUseCase.png> <./SignUpUseCase.png>]
-<LineUpUseCase.png, id=185, 611.28375pt x 604.2575pt>
+<LineUpUseCase.png, id=485, 640.3925pt x 665.48625pt>
 File: LineUpUseCase.png Graphic file (type png)
 <use LineUpUseCase.png>
-Package pdftex.def Info: LineUpUseCase.png  used on input line 401.
-(pdftex.def)             Requested size: 345.0pt x 341.02809pt.
+Package pdftex.def Info: LineUpUseCase.png  used on input line 403.
+(pdftex.def)             Requested size: 345.0pt x 358.52455pt.
  [33 <./RegistrationStoreUseCase.png>]
-<BookVisitUseCase.png, id=190, 539.01375pt x 470.75874pt>
+<BookVisitUseCase.png, id=492, 640.3925pt x 586.19pt>
 File: BookVisitUseCase.png Graphic file (type png)
 <use BookVisitUseCase.png>
-Package pdftex.def Info: BookVisitUseCase.png  used on input line 406.
-(pdftex.def)             Requested size: 345.0pt x 301.31331pt.
+Package pdftex.def Info: BookVisitUseCase.png  used on input line 408.
+(pdftex.def)             Requested size: 345.0pt x 315.80443pt.
  [34 <./LineUpUseCase.png>]
-<CancelReservationUseCase.png, id=195, 611.28375pt x 293.095pt>
+<CancelReservationUseCase.png, id=498, 611.28375pt x 293.095pt>
 File: CancelReservationUseCase.png Graphic file (type png)
 <use CancelReservationUseCase.png>
-Package pdftex.def Info: CancelReservationUseCase.png  used on input line 411.
+Package pdftex.def Info: CancelReservationUseCase.png  used on input line 413.
 (pdftex.def)             Requested size: 345.0pt x 165.4156pt.
-<GetOutLineUseCase.png, id=196, 611.28375pt x 230.8625pt>
+<GetOutLineUseCase.png, id=499, 611.28375pt x 230.8625pt>
 File: GetOutLineUseCase.png Graphic file (type png)
 <use GetOutLineUseCase.png>
-Package pdftex.def Info: GetOutLineUseCase.png  used on input line 416.
+Package pdftex.def Info: GetOutLineUseCase.png  used on input line 418.
 (pdftex.def)             Requested size: 345.0pt x 130.2931pt.
  [35 <./BookVisitUseCase.png> <./CancelReservationUseCase.png>]
-<PrintTicketUseCase.png, id=202, 611.28375pt x 444.66125pt>
+<PrintTicketUseCase.png, id=506, 611.28375pt x 444.66125pt>
 File: PrintTicketUseCase.png Graphic file (type png)
 <use PrintTicketUseCase.png>
-Package pdftex.def Info: PrintTicketUseCase.png  used on input line 421.
+Package pdftex.def Info: PrintTicketUseCase.png  used on input line 423.
 (pdftex.def)             Requested size: 345.0pt x 250.95589pt.
-<ReachStoreUseCase.png, id=203, 494.84875pt x 296.10625pt>
+<ReachStoreUseCase.png, id=507, 640.3925pt x 382.42876pt>
 File: ReachStoreUseCase.png Graphic file (type png)
 <use ReachStoreUseCase.png>
-Package pdftex.def Info: ReachStoreUseCase.png  used on input line 426.
-(pdftex.def)             Requested size: 345.0pt x 206.4416pt.
+Package pdftex.def Info: ReachStoreUseCase.png  used on input line 428.
+(pdftex.def)             Requested size: 345.0pt x 206.02994pt.
 
 [36 <./GetOutLineUseCase.png> <./PrintTicketUseCase.png>]
-<CheckCustomerCounterUseCase.png, id=209, 611.28375pt x 258.9675pt>
+<CheckCustomerCounterUseCase.png, id=514, 611.28375pt x 258.9675pt>
 File: CheckCustomerCounterUseCase.png Graphic file (type png)
 <use CheckCustomerCounterUseCase.png>
 Package pdftex.def Info: CheckCustomerCounterUseCase.png  used on input line 43
-1.
+3.
 (pdftex.def)             Requested size: 345.0pt x 146.15488pt.
-<LoginSequence.png, id=210, 493.845pt x 375.20175pt>
+<LoginSequence.png, id=515, 493.845pt x 375.20175pt>
 File: LoginSequence.png Graphic file (type png)
 <use LoginSequence.png>
-Package pdftex.def Info: LoginSequence.png  used on input line 438.
+Package pdftex.def Info: LoginSequence.png  used on input line 440.
 (pdftex.def)             Requested size: 345.0pt x 262.11272pt.
  [37 <./ReachStoreUseCase.png> <./CheckCustomerCounterUseCase.png>]
-<SignUpSequence.png, id=217, 487.8225pt x 314.97675pt>
+<SignUpSequence.png, id=523, 487.8225pt x 314.97675pt>
 File: SignUpSequence.png Graphic file (type png)
 <use SignUpSequence.png>
-Package pdftex.def Info: SignUpSequence.png  used on input line 443.
+Package pdftex.def Info: SignUpSequence.png  used on input line 445.
 (pdftex.def)             Requested size: 345.0pt x 222.76033pt.
-<RegistrationSequence.png, id=218, 513.71925pt x 496.254pt>
+<RegistrationSequence.png, id=524, 513.71925pt x 496.254pt>
 File: RegistrationSequence.png Graphic file (type png)
 <use RegistrationSequence.png>
-Package pdftex.def Info: RegistrationSequence.png  used on input line 448.
+Package pdftex.def Info: RegistrationSequence.png  used on input line 450.
 (pdftex.def)             Requested size: 345.0pt x 333.28352pt.
  [38 <./LoginSequence.png> <./SignUpSequence.png>]
-<LineUpSequence.png, id=224, 489.027pt x 590.80725pt>
+<LineUpSequence.png, id=531, 489.027pt x 590.80725pt>
 File: LineUpSequence.png Graphic file (type png)
 <use LineUpSequence.png>
-Package pdftex.def Info: LineUpSequence.png  used on input line 453.
+Package pdftex.def Info: LineUpSequence.png  used on input line 455.
 (pdftex.def)             Requested size: 345.0pt x 416.82567pt.
  [39 <./RegistrationSequence.png>]
-<BookSequence.png, id=229, 418.56375pt x 578.76225pt>
+<BookSequence.png, id=537, 418.56375pt x 578.76225pt>
 File: BookSequence.png Graphic file (type png)
 <use BookSequence.png>
-Package pdftex.def Info: BookSequence.png  used on input line 458.
+Package pdftex.def Info: BookSequence.png  used on input line 460.
 (pdftex.def)             Requested size: 345.0pt x 477.04318pt.
  [40 <./LineUpSequence.png>]
-<CancelReservationSequence.png, id=234, 494.44725pt x 372.1905pt>
+<CancelReservationSequence.png, id=543, 494.44725pt x 372.1905pt>
 File: CancelReservationSequence.png Graphic file (type png)
 <use CancelReservationSequence.png>
-Package pdftex.def Info: CancelReservationSequence.png  used on input line 463.
+Package pdftex.def Info: CancelReservationSequence.png  used on input line 465.
 
 (pdftex.def)             Requested size: 345.0pt x 259.69673pt.
 
 [41 <./BookSequence.png>]
-<OutOfLineSequence.png, id=239, 547.44525pt x 340.8735pt>
+<OutOfLineSequence.png, id=549, 547.44525pt x 340.8735pt>
 File: OutOfLineSequence.png Graphic file (type png)
 <use OutOfLineSequence.png>
-Package pdftex.def Info: OutOfLineSequence.png  used on input line 468.
+Package pdftex.def Info: OutOfLineSequence.png  used on input line 470.
 (pdftex.def)             Requested size: 345.0pt x 214.81905pt.
-<PrintTicketSequence.png, id=240, 499.26524pt x 320.99925pt>
+<PrintTicketSequence.png, id=550, 499.26524pt x 320.99925pt>
 File: PrintTicketSequence.png Graphic file (type png)
 <use PrintTicketSequence.png>
-Package pdftex.def Info: PrintTicketSequence.png  used on input line 473.
+Package pdftex.def Info: PrintTicketSequence.png  used on input line 475.
 (pdftex.def)             Requested size: 345.0pt x 221.81789pt.
  [42 <./CancelReservationSequence.png> <./OutOfLineSequence.png>]
-<ReachStoreSequence.png, id=246, 684.75826pt x 564.30824pt>
+<ReachStoreSequence.png, id=557, 684.75826pt x 564.30824pt>
 File: ReachStoreSequence.png Graphic file (type png)
 <use ReachStoreSequence.png>
-Package pdftex.def Info: ReachStoreSequence.png  used on input line 478.
+Package pdftex.def Info: ReachStoreSequence.png  used on input line 480.
 (pdftex.def)             Requested size: 345.0pt x 284.3147pt.
  [43 <./PrintTicketSequence.png> <./ReachStoreSequence.png>]
 [44]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
-25.
+27.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <7> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 527.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 529.
  [45]
 [46] [47] [48]
-<NoOverlapReservations.png, id=273, 951.555pt x 543.2295pt>
+<NoOverlapReservations.png, id=802, 951.555pt x 543.2295pt>
 File: NoOverlapReservations.png Graphic file (type png)
 <use NoOverlapReservations.png>
-Package pdftex.def Info: NoOverlapReservations.png  used on input line 749.
+Package pdftex.def Info: NoOverlapReservations.png  used on input line 751.
 (pdftex.def)             Requested size: 345.0pt x 196.95502pt.
-<NoNotification.png, id=274, 519.1395pt x 289.68225pt>
+<NoNotification.png, id=803, 519.1395pt x 289.68225pt>
 File: NoNotification.png Graphic file (type png)
 <use NoNotification.png>
-Package pdftex.def Info: NoNotification.png  used on input line 755.
+Package pdftex.def Info: NoNotification.png  used on input line 757.
 (pdftex.def)             Requested size: 345.0pt x 192.5125pt.
  [49 <./NoOverlapReservations.png>]
-<yesNotification.png, id=280, 852.18375pt x 377.61075pt>
+<yesNotification.png, id=821, 852.18375pt x 377.61075pt>
 File: yesNotification.png Graphic file (type png)
 <use yesNotification.png>
-Package pdftex.def Info: yesNotification.png  used on input line 761.
+Package pdftex.def Info: yesNotification.png  used on input line 763.
 (pdftex.def)             Requested size: 345.0pt x 152.87389pt.
-<waitingTime.png, id=281, 665.48625pt x 416.15475pt>
+<waitingTime.png, id=822, 665.48625pt x 416.15475pt>
 File: waitingTime.png Graphic file (type png)
 <use waitingTime.png>
-Package pdftex.def Info: waitingTime.png  used on input line 767.
+Package pdftex.def Info: waitingTime.png  used on input line 769.
 (pdftex.def)             Requested size: 345.0pt x 215.74132pt.
  [50 <./NoNotification.png> <./yesNotification.png>]
-<storeCapacity.png, id=288, 643.80525pt x 254.1495pt>
+<storeCapacity.png, id=831, 643.80525pt x 254.1495pt>
 File: storeCapacity.png Graphic file (type png)
 <use storeCapacity.png>
-Package pdftex.def Info: storeCapacity.png  used on input line 773.
+Package pdftex.def Info: storeCapacity.png  used on input line 775.
 (pdftex.def)             Requested size: 345.0pt x 136.1955pt.
-<QrCodeAssertion.png, id=289, 490.83376pt x 142.131pt>
+<QrCodeAssertion.png, id=832, 490.83376pt x 142.131pt>
 File: QrCodeAssertion.png Graphic file (type png)
 <use QrCodeAssertion.png>
-Package pdftex.def Info: QrCodeAssertion.png  used on input line 779.
+Package pdftex.def Info: QrCodeAssertion.png  used on input line 781.
 (pdftex.def)             Requested size: 345.0pt x 99.90523pt.
  [51 <./waitingTime.png> <./storeCapacity.png>]
-<PolidoriEffort.png, id=295, 640.3925pt x 463.7325pt>
+<PolidoriEffort.png, id=841, 640.3925pt x 463.7325pt>
 File: PolidoriEffort.png Graphic file (type png)
 <use PolidoriEffort.png>
-Package pdftex.def Info: PolidoriEffort.png  used on input line 789.
+Package pdftex.def Info: PolidoriEffort.png  used on input line 791.
 (pdftex.def)             Requested size: 345.0pt x 249.83157pt.
-<RiveraEffort.png, id=296, 640.3925pt x 463.7325pt>
+<RiveraEffort.png, id=842, 640.3925pt x 463.7325pt>
 File: RiveraEffort.png Graphic file (type png)
 <use RiveraEffort.png>
-Package pdftex.def Info: RiveraEffort.png  used on input line 796.
+Package pdftex.def Info: RiveraEffort.png  used on input line 798.
 (pdftex.def)             Requested size: 345.0pt x 249.83157pt.
- [52 <./QrCodeAssertion.png> <./PolidoriEffort.png>] [53 <./RiveraEffort.png>]
-(./RASD.aux) ) 
+ [52 <./QrCodeAssertion.png> <./PolidoriEffort.png>]
+Overfull \hbox (3.53214pt too wide) in paragraph at lines 806--807
+[]\T1/cmr/m/n/10 Alloy code doc-u-men-ta-tion sup-ported the code de-ploy-ment:
+ []$\T1/cmtt/m/n/10 http : / / alloy .
+ []
+
+[53 <./RiveraEffort.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 811.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 811.
+ (./RASD.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 811.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 811.
+Package rerunfilecheck Info: File `RASD.out' has not changed.
+(rerunfilecheck)             Checksum: 40D987161B793629E83D0B0A0BF3A1AE;3570.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 811.
+ ) 
 Here is how much of TeX's memory you used:
- 14619 strings out of 480608
- 286105 string characters out of 5903629
- 735612 words of memory out of 5000000
- 30212 multiletter control sequences out of 15000+600000
- 541860 words of font info for 43 fonts, out of 8000000 for 9000
+ 18962 strings out of 480608
+ 354645 string characters out of 5903629
+ 822951 words of memory out of 5000000
+ 34101 multiletter control sequences out of 15000+600000
+ 542173 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,65p,1489b,1783s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-s
-uper-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
-.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.p
-fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb
-></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfit0800.pfb></u
-sr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr
-/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/l
-ocal/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/loc
-al/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on RASD.pdf (53 pages, 9176489 bytes).
+ 60i,8n,65p,1500b,1986s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
+usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
+/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/l
+ocal/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/loc
+al/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local
+/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/t
+exlive/2020/texmf-dist/fonts/type1/public/cm-super/sfit0800.pfb></usr/local/tex
+live/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texli
+ve/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive
+/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/202
+0/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on RASD.pdf (53 pages, 9378479 bytes).
 PDF statistics:
- 345 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 313 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 977 PDF objects out of 1000 (max. 8388607)
+ 782 compressed objects within 8 object streams
+ 348 named destinations out of 1000 (max. 500000)
+ 705 words of extra memory for PDF output out of 10000 (max. 10000000)
 
