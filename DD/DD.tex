@@ -17,7 +17,7 @@
 
 
 
-\title{ Design Document 2020-2021}
+\title{ Design Document\\2020-2021}
 \author{Alessandro Polidori (Codice persona 10573078)\\Olimpia Rivera (Codice persona 10617517)}
 \date{}
 
@@ -27,10 +27,76 @@
 
 
 \begin{document}
+
+\renewcommand{\labelitemi}{\normalfont -} 
+
+\begin{figure}[]
+  \includegraphics[width=\linewidth]{logo_politecnico copia.png}
+  
+\end{figure}
 \maketitle
 \tableofcontents{}
+\newpage
 
-Ciao
+\section{Introduction}
+\subsection{Purpose}
+The purpose of this document is to further detail the software system discussed in the RASD by providing more technical and precise informations. The RASD, indeed, describes the system in terms of requirements, assumptions and goals and gives a general overview of the main system’s functionalities, whereas the DD goes deeper into software design and architecture. In particular, all the required components of the system and the interactions among them are presented, as well as run-time processes and motivated design choices. In addiction, the document describes the implementation, integration and testing plans.\\
+The relevant issues explored in the Design Document are the following:
+\begin{itemize}
+\item High-level architecture
+\item Main components and relative interfaces
+\item Runtime behavior
+\item Design patterns
+\item Implementation, integration and testing plan
+\end{itemize}
+This document represents a vehicle for stakeholders communication, as it defines a set of design  decisions made to offer both the essential functionalities and the required quality attributes.
 
+\subsection{Scope}
+The CLup software application is designed to help both common users and store managers to deal with some relevant difficulties and challenges created by the coronavirus emergency. The CLup system, indeed, gives users the possibility to join virtual lines to stores and wait for their turn at home instead of standing in line outside stores. The system itself notifies users when it is time to leave to reach the store. Alternatively, thanks to the CLup application, users can choose to book visits to stores in advance, by selecting the preferred date and time slot.
+ In order for the lining up mechanism to work effectively, all the users are asked to provide their expected shopping duration and the system will calculate, and eventually modify, the waiting times of the users in line by taking into account the following events: users currently in line, users currently in the store, users getting out of the line, cancelled reservations, crowdedness of stores’ departments and users’ visits’ durations. Indeed, a QR code will be generated for each user and scanned at entrances and exits by smart turnstiles, so that the system can collect and store informations about visits’ duration. The influx of people is managed by the system in an even finer way, by asking users to provide a list of product categories they intend to purchase. The system is also designed to regulate accesses to stores in order to respect restrictions imposed by the virus emergency, by taking into account the stores’ capacities. For this reason, store managers as well benefit from such a software application because they have the possibility to monitor the number of people in they stores updating in real time.\\
+A more detailed overview of the functionalities offered by the system can be found in the RASD.
+
+\subsection{Definitions, Acronyms, Abbreviations}
+\subsubsection{Definitions}
+\subsubsection{Acronyms}
+\begin{itemize}
+\item RASD: Requirements Analysis and Specifications Document
+\item DD: Design Document
+\item API: Application Programming Interface
+\end{itemize}
+\subsubsection{Abbreviations}
+\subsection{Revision History}
+\subsection{Document Structure}
+The Design Document is structured in the following chapters:
+\begin{itemize}
+\item\textbf{Chapter 1} describes the document’s purpose and scope and its differences with respect to the RASD. Useful specifications (definitions, acronyms, abbreviations) are included for a better understanding of the next sections of the document.
+\item\textbf{Chapter 2}
+\item\textbf{Chapter 3}
+\item\textbf{Chapter 4}
+\item\textbf{Chapter 5}
+\item\textbf{Chapter 6} presents the effort spent by the group members while working on this project.
+\item\textbf{Chapter 7} includes the reference documents.
+\end{itemize}
+
+\section{Architectural Design}
+\subsection{Overview}
+\subsection{High Level Components}
+\subsection{Component view}
+\subsection{Deployment View}
+\subsection{Runtime View}
+\subsection{Component Interfaces}
+\subsection{Selected architectural styles and patterns}
+\subsection{Other Design Decisions}
+\subsection{Algorithms}
+
+\section{User Interface Design}
+
+\section{Requirements Traceability}
+
+\section{Implementation, Integration and Test Plan}
+
+\section{Effort Spent}
+
+\section{Reference Documents}
 
 \end{document}
