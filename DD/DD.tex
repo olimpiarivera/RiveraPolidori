@@ -81,25 +81,37 @@ The Design Document is structured in the following chapters:
 
 \section{Architectural Design}
 \subsection{Overview}
-The application architecture is going to be developed as a three-tier architecture. The three logical al physical computing tiers are the following:
+The application architecture is going to be developed as a three-tier architecture. The three logical and physical computing tiers are the following:
 \begin{itemize}
 \item\textbf{Presentation Tier:} manages the interaction between users and the application. It is responsible for collecting informations form the users and for displaying informations.
-\item\textbf{Business logic or Application Tier:} it is where all the communication goes though: it is in charge of processing information collected in the presentation tier and passing it to the data tier. It also manages the way functions will be presented to the users.
+\item\textbf{Business logic or Application Tier:} it is where all the communication goes though: it is in charge of processing information collected in the presentation tier and passing it to the data tier. It also manages the way functions are presented to the users.
 \item\textbf{Data Access Tier:} it stores and manages the informations processed by the application by performing the necessary operations into the database.
 \end{itemize}
-More precisely, the architecture will be made as a three-tier client-server style, in which presentation, application logic and data processing layers will be divided across client and server devices and they will all have their own dedicated hardware. The advantages for choosing such an architecture will be further explained in the next sections.
+More precisely, the architecture is made as a three-tier client-server style, in which presentation, application logic and data processing layers are divided across client and server devices and they all have their own dedicated hardware. The advantages for choosing such an architecture will be further explained in the next sections.
 \smallskip\\
 Depending on the functionality requested by a user, the client requests a certain service from the server and the invocation of different methods takes place. The server itself provides the needed services through well defined APIs.
 \smallskip\\
-The functionalities offered by CLup will work in the following way:
+The functionalities offered by CLup work in the following way:
 \begin{itemize}
-\item\textbf{Line up:} the application server receives a request of lining up, it takes the required information about the current state of the line from the database server and it sends it back to the client. If the user decides to line up, the application server will communicate with the database server to store the information about the new user, so that the state of the line can be changed. Additionally, the application server will interact with the user by sending notification. NO, LA NOTIFICA VIENE GESTITA COMPLETAMENTE LATO CLIENT PERCHE SERVONO SOLO DUE INFO, WAITING TIME E TIME TO ARRIVE. NON C'E BISOGNO DI AVERE LOGICA SULL'APPLICATION SERVER (unica cosa da controllare è waiting time == time to arrive) (asynchronously) when it is time to reach the store.
-POI RICORDA DI METTERE LA ROBA DELLA CACHE (GUARDA TRACK ME). NOI NELLA CACHE TENIAMO LA LISTA DEGLI STORE
+\item\textbf{Line up:} the application server receives a request of lining up, it takes the required information about the current state of the line from the database server and it sends it back to the client. If the user decides to line up, the application server will communicate with the database server to store the information about the new user, so that the state of the line can be changed. 
 \item\textbf{Book visit:} the application server receives a request for booking a visit and provides the user with the necessary forms to complete the reservation. The informations provided by the users will be sent to the application server and then stored in the database.
 \item\textbf{Check counter:} the application server will receive the request from the store manager’s client, it takes the information about the counter from the database server and it sends it back to the client.
 \item\textbf{Print ticket:} whenever a store manager decides to print a physical ticket, the application server will inform the database server in order for the state of the line to be correctly updated.
 \end{itemize}
 \subsection{High Level Components}
+The following figure represents an high level architecture of the system, showing the different physical machines dedicated to each of the three logic software layers: a tier to interface with the user, a middle tier that holds the business logic of the system, which separates clients and data, and a DataBase Server for the data access layer that holds all the data of the application. \\
+\smallskip\\
+Not only the modularization of the three layers provides many benefits in terms of flexibility for developers, by allowing them to work on specific part of the application, with minimal impact on the other layers, but it also guarantees more secure accesses to the database. To enhance the overall security of the system, firewalls are installed to monitor and control incoming and outgoing network traffic.
+\smallskip\\
+Another great advantage of this type of architecture that is exploited is scalability: Application Server and Web Server nodes are replicated and a load-balancing systems are added, improving the overall performance. (Note that the Application server and the Web server are considered as a single middle tier containing the business logic, according with the previously defined three-tier architecture).
+\smallskip\\
+Additionally, reliability and availability are also increased by the usage of a cache on the client side. Indeed, to fasten the process of store selection, the users’ mobile app stores the list of all shops, in order to avoid the connection to the Internet to retrieve the desired one. Consequentially, a mechanism able to keep data up to date is needed.
+\smallskip\\
+Finally, the clients configuration considered is the Thick one, because it also contains a small part of the business logic. In particular, the clients are able to compute the function that checks whether the waiting time equals the time needed by the user to reach the store. For this reason, the (asynchronous) notification received by the user when it is time to reach the store, is completely managed on the client side.
+\smallskip\\
+The figure below provides a more detailed, but still very high-level architectural overview, also showing the interaction among the various components.\\
+\smallskip\\
+As shown in the image, clients’ devices can be either smartphones (for store’s customers), which are connected to the Application Server, or computers (for store’s manager). The Web Servers are used to manage communication with store’s managers’ Web applications: it forwards requests to the Application Server, which ultimately communicates with the Database Server. The Application Server also exploits the Google Maps API in order to retrieve users’ locations.
 \subsection{Component view}
 \subsection{Deployment View}
 \subsection{Runtime View}
