@@ -103,7 +103,7 @@ The following figure represents an high level architecture of the system, showin
 \smallskip\\
 Not only the modularization of the three layers provides many benefits in terms of flexibility for developers, by allowing them to work on specific part of the application, with minimal impact on the other layers, but it also guarantees more secure accesses to the database. To enhance the overall security of the system, firewalls are installed to monitor and control incoming and outgoing network traffic.
 \smallskip\\
-Another great advantage of this type of architecture that is exploited is scalability: Application Server and Web Server nodes are replicated and a load-balancing systems are added, improving the overall performance. (Note that the Application server and the Web server are considered as a single middle tier containing the business logic, according with the previously defined three-tier architecture).
+Another great advantage of this type of architecture that is exploited is scalability: Application Server and Web Server nodes are replicated and a load-balancing systems are added, improving the overall performance. Note that the Application server and the Web server are considered as a single middle tier containing the business logic, according with the previously defined three-tier architecture. It must be remarked, however, that the Web Server is only used to provide static content (HTML pages).
 \smallskip\\
 Additionally, reliability and availability are also increased by the usage of a cache on the client side. Indeed, to fasten the process of store selection, the users’ mobile app stores the list of all shops, in order to avoid the connection to the Internet to retrieve the desired one. Consequentially, a mechanism able to keep data up to date is needed.
 \smallskip\\
@@ -114,6 +114,17 @@ The figure below provides a more detailed, but still very high-level architectur
 As shown in the image, clients’ devices can be either smartphones (for store’s customers), which are connected to the Application Server, or computers (for store’s manager). The Web Servers are used to manage communication with store’s managers’ Web applications: it forwards requests to the Application Server, which ultimately communicates with the Database Server. The Application Server also exploits the Google Maps API in order to retrieve users’ locations.
 \subsection{Component view}
 \subsection{Deployment View}
+In the following deployment diagram the actual physical nodes of the system and the type of used hardware are represented. It also shows the communication methods that occur among the components.\\
+\smallskip\\
+The nodes show in the image above are the following:
+\begin{itemize}
+\item\textbf{Smartphone:} together with the store’s computer, it is part of the first tier in which presentation logic must be deployed. The user accesses CLup’s services though this type of device, by communicating with the Application Server, using HTTP. The mobile application must be compatible with the most of the existing Operating Systems, in order to be available on most of the devices.
+\item\textbf{Store’s computer:} it is used by store managers (or their employees) to ask for and receive data on the actual crowdedness of their stores. It also sends informations to the Application Server regarding the printing of physical tickets. The communication always takes place through HTTP. The Web Application must be compatible with the most popular Web Browsers.\\
+Additionally, on this same node, a piece of software that communicates with the turnstiles is deployed. This communication is fundamental for keeping the customer counter updated. The Application Server, indeed, receives informations about entrances from it, which will eventually be forwarded to the database, in order to keep the state of the store’s crowdedness updated. This piece of software must be able to communicate with the most common turnstiles’ brands.
+\item\textbf{Application Server:} it is where most of the application logic is deployed. The mobile application directly forwards all the requests to it, in order to receive the appropriate services. It also handles requests coming from the Web Server, sent by the Web Application.
+\item\textbf{Web Server:} it is always part of the middle tier, together with the Application Server. As stated before, however, requests that involve dynamic content (generation of tickets and customer counter), cannot be served by the Web Server. For this reason, these type of requests are forwarded to the Application Server.
+\item\textbf{Database Server:}
+\end{itemize}
 \subsection{Runtime View}
 \subsection{Component Interfaces}
 \subsection{Selected architectural styles and patterns}
