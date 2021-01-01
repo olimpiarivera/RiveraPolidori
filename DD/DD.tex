@@ -64,17 +64,22 @@ A more detailed overview of the functionalities offered by the system can be fou
 \item RASD: Requirements Analysis and Specifications Document
 \item DD: Design Document
 \item API: Application Programming Interface
+\item DBMS: Database Management System
+\item RDBMS: Relational Database Management System
 \end{itemize}
 \subsubsection{Abbreviations}
+\begin{itemize}
+\item Rn: n-th functional requirement
+\end{itemize}
 \subsection{Revision History}
 \subsection{Document Structure}
 The Design Document is structured in the following chapters:
 \begin{itemize}
 \item\textbf{Chapter 1} describes the document’s purpose and scope and its differences with respect to the RASD. Useful specifications (definitions, acronyms, abbreviations) are included for a better understanding of the next sections of the document.
-\item\textbf{Chapter 2}
-\item\textbf{Chapter 3}
-\item\textbf{Chapter 4}
-\item\textbf{Chapter 5}
+\item\textbf{Chapter 2} represents the core section of the document because it deals with the architectural design choices. In particular, it describes all the system's components, their interfaces, how they are distributed on physical nodes and the interactions among them. It also presents the methods provided by the component's interfaces and how they are used in different processes. Finally, chapter 2 provides a description of the selected architectural styles and patterns, together with the reasons why they have been chosen.
+\item\textbf{Chapter 3} it provides some relevant UX diagrams to further detail the interaction between users and the application presented in the RASD.
+\item\textbf{Chapter 4} identifies by which component each of the system's requirement (defined in the RASD) is satisfied.
+\item\textbf{Chapter 5} describes the plans that have been chosen for the following crucial activities: implementation, integration and testing.
 \item\textbf{Chapter 6} presents the effort spent by the group members while working on this project.
 \item\textbf{Chapter 7} includes the reference documents.
 \end{itemize}
@@ -123,7 +128,7 @@ The nodes show in the image above are the following:
 Additionally, on this same node, a piece of software that communicates with the turnstiles is deployed. This communication is fundamental for keeping the customer counter updated. The Application Server, indeed, receives informations about entrances from it, which will eventually be forwarded to the database, in order to keep the state of the store’s crowdedness updated. This piece of software must be able to communicate with the most common turnstiles’ brands.
 \item\textbf{Application Server:} it is where most of the application logic is deployed. The mobile application directly forwards all the requests to it, in order to receive the appropriate services. It also handles requests coming from the Web Server, sent by the Web Application.
 \item\textbf{Web Server:} it is always part of the middle tier, together with the Application Server. As stated before, however, requests that involve dynamic content (generation of tickets and customer counter), cannot be served by the Web Server. For this reason, these type of requests are forwarded to the Application Server.
-\item\textbf{Database Server:}
+\item\textbf{Database Server:} it stores and manages personal users’ data as well as the data relative to reservations and visits’ durations. It hosts a relational DBMS (RDBMS): it is the most suitable option for insertion, update and deletion of small amounts of data. It easily supports large number of users and frequent queries.
 \end{itemize}
 \subsection{Runtime View}
 \subsection{Component Interfaces}
