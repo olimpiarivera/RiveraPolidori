@@ -118,9 +118,45 @@ The figure below provides a more detailed, but still very high-level architectur
 \smallskip\\
 As shown in the image, clients’ devices can be either smartphones (for store’s customers), which are connected to the Application Server, or computers (for store’s manager). The Web Servers are used to manage communication with store’s managers’ Web applications: it forwards requests to the Application Server, which ultimately communicates with the Database Server. The Application Server also exploits the Google Maps API in order to retrieve users’ locations.
 \subsection{Component view}
+In the diagram below, main software components and their relations are shown. Only application server's
+components and offered interfaces are analyzed in detail.It should be clear that this is only the
+suggested components' structure, useful to understand how the components communicate with each other,
+and that it could be implemented in many different ways.
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{ComponentDiagram.png}
+  
+\end{figure}
+
+\begin{itemize}
+\item\textbf{loginManager}: this component manages the logic behind the mobile user's and storemanager's authentication.
+It needs to access the database in order to check if the credentials are valid.
+\item\textbf{signUpManager}: it manages the mobile user's initial sign-up. It access the database to retrieve the sign-up
+form and to save the new user's credentials.
+\item\textbf{storeRegistrationManager}: it controls the storemanager's initial registration of himself and, therefore,
+of the store. It has to interact with the database in a similar way to the signUpManager component, but it 
+needs also to manage the logic behind the validation of the storemanager's identity.
+\item\textbf{ticketGenerationManager}: this component creates tickets. It needs to add one more person to the virtual
+queue, so it communicate with the queueManager component in the same way "mobileApp" does when
+a user decides to get in line using his smartphone app.
+\item\textbf{queueManager}: this component controls all the operations involving the virtual line. It also includes
+the waiting-times managing algorithm. It access the DBMS to retrieve queues' data, information regarding the current state of the line, data regarding shopping duration/ product lists and to store the current state of the line. It is also the responsible of the calculation of the inferred shopping duration.
+\item\textbf{qrCodeManager}: it manages the creation of new QRCodes, the validity check and it stores data regarding
+the mapping between codes and reservations/turnNumbers.
+\item\textbf{bookingManager}: it manages all the logic behind booking process. It stores new reservations.
+\item\textbf{turnstileStatusManager}: it manages the turnstile status. It unlocks them if the scanned QrCode is valid, so
+it has to interact with qrCodeManager.
+\item\textbf{timeToArriveManager}: its purpose is to manage the information regarding the geolocation and correlated details like distance and time to arrive. In this first version of CLup it does nothing more than forward time-to-arrive request to the mapsServiceMediator.
+\item\textbf{MapsServiceMediator}: the purpose of this component is to decouple the system from a specific maps service, so future external changes won't affect the internal system's interface.
+
+\end{itemize}
 \subsection{Deployment View}
 In the following deployment diagram the actual physical nodes of the system and the type of used hardware are represented. It also shows the communication methods that occur among the components.\\
-\smallskip\\
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{deployment.png}
+  
+\end{figure}
+
 The nodes show in the image above are the following:
 \begin{itemize}
 \item\textbf{Smartphone:} together with the store’s computer, it is part of the first tier in which presentation logic must be deployed. The user accesses CLup’s services though this type of device, by communicating with the Application Server, using HTTP. The mobile application must be compatible with the most of the existing Operating Systems, in order to be available on most of the devices.
@@ -132,15 +168,36 @@ Additionally, on this same node, a piece of software that communicates with the 
 \end{itemize}
 \subsection{Runtime View}
 The following sequence diagrams represent the dynamic interactions among the components during relevant processes.\\
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{LineUpRT.png}
+  
+\end{figure}
 LINE UP\\
-This sequence diagram describes the process of getting into a store’s line. The user is assumed to be already logged in and to have already chosen the store. The user’s request to join a line is forwarded by the MobileApp to the Router, which, in its turn, forwards it to the QueueManager component. The QueueManager contacts the DBMS to receive the waiting time for that specific store, which is then forwarded to the MobileApp and shown to the user. At this point, if the user decides to line up, he/she inserts the rest of the mandatory informations (expected visit’s duration and means of transport), which are forwarded to the QueueManager. If the user has chosen to let the system infer his/her shopping time (based on his/her previous visits), the BookingManager contacts the DBMS in order to receive such an information, which is sent back to the Router. The Router itself, forwards to the QueueManager the request to finally put the user in line. The QRCodeManager is asked by the QueueManager to generate a QR code, uniquely associated to a certain turn number. The QueueManager is also in charge of notify the DBMS to store the new line’s informations. The QR code, together with the turn number are then rendered to the user through the MobileApp. The MobileApp sends to the router the request to calculate the time needed by the user to reach the store form his/her current location. This request is sequentially forwarded to the TimeToArriveManager and to the MapServiceMediator, which uses GoogleMapsAPI to retrieve this information, which is sent back to the MobileApp and shown to the user.\\
+This sequence diagram describes the process of getting into a store’s line. The user is assumed to be already logged in and to have already chosen the store. The user’s request to join a line is forwarded by the MobileApp to the Router, which, in its turn, forwards it to the QueueManager component. The QueueManager contacts the DBMS to receive the waiting time for that specific store, which is then forwarded to the MobileApp and shown to the user. At this point, if the user decides to line up, he/she inserts the rest of the mandatory informations (expected visit’s duration and means of transport), which are forwarded to the QueueManager. If the user has chosen to let the system infer his/her shopping time (based on his/her previous visits), the BookingManager contacts the DBMS in order to receive such an information, which is sent back to the Router. The Router itself, forwards to the QueueManager the request to finally put the user in line. The QRCodeManager is asked by the QueueManager to generate a QR code, uniquely associated to a certain turn number. The QueueManager is also in charge of notify the DBMS to store the new line’s informations. The QR code, together with the turn number are then rendered to the user through the MobileApp. The MobileApp sends to the router the request to calculate the time needed by the user to reach the store form his/her current location. This request is sequentially forwarded to the TimeToArriveManager and to the MapServiceMediator, which uses GoogleMapsAPI to retrieve this information, which is sent back to the MobileApp and shown to the user.
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{BookingRT.png}
+  
+\end{figure}
+\newpage
 BOOK VISIT\\
-The sequence diagram above shows the process of booking a visit. The user is assumed to be already logged in and to have already chosen the store. The user’s request to book a visit is forwarded by the MobileApp to the Router, which, in its turn, forwards it to the BookingManager component. A registration form is created and sent back to she user. As soon as the user inserts the preferred time slot, the BookingManager communicates with DBMS in order to check whether the time slot is valid (not overlapping with other use’s reservations. As soon as a valid time slot is selected by the user, a pending reservation is saved in the database and the MobileApp allows the users to fill the rest of the mandatory fields (expected visit’s duration and list of product types), which are forwarded to the BookingManager. As for the lining up process, if the user has chosen to let the system infer his/her shopping time (based on his/her previous visits), the BookingManager contacts the DBMS in order to receive such an information, which is added to the reservation resume sent to the user. Finally, if the user clicks on “confirm”, the BookingManager “tells” the DBMS to update and store the final reservation and sends to the QRCodeManager a request for generating a QR code for that specific user and time slot. The MobileApp renders the generated QR code to the user. In case the user does not confirm the reservation, the BookingManager warns the DBMS to delete the previous pending reservation.\\
+The sequence diagram above shows the process of booking a visit. The user is assumed to be already logged in and to have already chosen the store. The user’s request to book a visit is forwarded by the MobileApp to the Router, which, in its turn, forwards it to the BookingManager component. A registration form is created and sent back to she user. As soon as the user inserts the preferred time slot, the BookingManager communicates with DBMS in order to check whether the time slot is valid (not overlapping with other use’s reservations. As soon as a valid time slot is selected by the user, a pending reservation is saved in the database and the MobileApp allows the users to fill the rest of the mandatory fields (expected visit’s duration and list of product types), which are forwarded to the BookingManager. As for the lining up process, if the user has chosen to let the system infer his/her shopping time (based on his/her previous visits), the BookingManager contacts the DBMS in order to receive such an information, which is added to the reservation resume sent to the user. Finally, if the user clicks on “confirm”, the BookingManager “tells” the DBMS to update and store the final reservation and sends to the QRCodeManager a request for generating a QR code for that specific user and time slot. The MobileApp renders the generated QR code to the user. In case the user does not confirm the reservation, the BookingManager warns the DBMS to delete the previous pending reservation.
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{ticketRT.png}
+  
+\end{figure}
 TICKET GENERATION\\
-This sequence diagram describes what are the components needed when a physical ticket is printed and the interaction among them. The system has to take into account the people that reach the stores without the required technology, in order to keep the lines properly updated. A store manager makes a request through the Store’s WebApp to generate a ticket preview. The WebServer’s WebApp sends such a request to the Router, which forwards it to the TicketGenerationManager. At this point, the TicketGenerationManager communicates with the QueueManager, which is in charge of: asking the generation of a new QR code to the QRCodeManager and notifying the DBMS to store the new line’s  informations. The QR code, together with the turn number are sent back to the TicketGenerationManager, which finally generates and sends to the WebServer’s WebApp the ticket preview. The Store’s WebApp as well receives the ticket preview and renders it to the store’s manager.\\
+This sequence diagram describes what are the components needed when a physical ticket is printed and the interaction among them. The system has to take into account the people that reach the stores without the required technology, in order to keep the lines properly updated. A store manager makes a request through the Store’s WebApp to generate a ticket preview. The WebServer’s WebApp sends such a request to the Router, which forwards it to the TicketGenerationManager. At this point, the TicketGenerationManager communicates with the QueueManager, which is in charge of: asking the generation of a new QR code to the QRCodeManager and notifying the DBMS to store the new line’s  informations. The QR code, together with the turn number are sent back to the TicketGenerationManager, which finally generates and sends to the WebServer’s WebApp the ticket preview. The Store’s WebApp as well receives the ticket preview and renders it to the store’s manager.
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{QrRT.png}
+  
+\end{figure}
 QR CODE SCANNING\\
 The sequence diagram above describes which components’ interactions take place when a QR code is scanned by a turnstile. Whenever a store’s customer makes his/her QR code scanned, the turnstile’s Access Control Software forward a request to unlock the the turnstile (together with the scanned QR code informations) to the Router, which eventually forwards it to the TurnstileStatusManager. This last component handles the request by asking to the QRCodeManager, which communicates with the DBMS, to check the validity of the scanned QR code (not expired or false). If the check is successful, the TurnstileStatusManager is notified and a confirmation is sent to the Access Control Software, which eventually lets the turnstile unlock. Otherwise (unsuccessful check) the Access Control Software receives an error message and the turnstile will not be unlocked.
 \subsection{Component Interfaces}
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{interfacesDiagram.png}
+  
+\end{figure}
 \subsection{Selected architectural styles and patterns}
 \subsection{Other Design Decisions}
 \subsection{Algorithms}
