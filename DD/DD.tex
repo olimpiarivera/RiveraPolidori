@@ -88,8 +88,8 @@ The Design Document is structured in the following chapters:
 \subsection{Overview}
 The application architecture is going to be developed as a three-tier architecture. The three logical and physical computing tiers are the following:
 \begin{itemize}
-\item\textbf{Presentation Tier:} manages the interaction between users and the application. It is responsible for collecting informations form the users and for displaying informations.
-\item\textbf{Business logic or Application Tier:} it is where all the communication goes though: it is in charge of processing information collected in the presentation tier and passing it to the data tier. It also manages the way functions are presented to the users.
+\item\textbf{Presentation Tier:} manages the interaction between users and the application. It is responsible for collecting informations from the users and for displaying informations.
+\item\textbf{Business logic or Application Tier:} it is where all the communication goes through: it is in charge of processing information collected in the presentation tier and passing it to the data tier. It also manages the way functions are presented to the users.
 \item\textbf{Data Access Tier:} it stores and manages the informations processed by the application by performing the necessary operations into the database.
 \end{itemize}
 More precisely, the architecture is made as a three-tier client-server style, in which presentation, application logic and data processing layers are divided across client and server devices and they all have their own dedicated hardware. The advantages for choosing such an architecture will be further explained in the next sections.
@@ -116,7 +116,11 @@ Finally, the clients configuration considered is the Thick one, because it also 
 \smallskip\\
 The figure below provides a more detailed, but still very high-level architectural overview, also showing the interaction among the various components.\\
 \smallskip\\
-As shown in the image, clients’ devices can be either smartphones (for store’s customers), which are connected to the Application Server, or computers (for store’s manager). The Web Servers are used to manage communication with store’s managers’ Web applications: it forwards requests to the Application Server, which ultimately communicates with the Database Server. The Application Server also exploits the Google Maps API in order to retrieve users’ locations.
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{highArchitecture.png}
+  
+\end{figure}
+As shown in the image, clients’ devices can be either smartphones (for store’s customers), which are connected to the Application Server, or computers (for store’s manager). The Web Servers are used to manage communication with store’s managers’ Web applications: it forwards requests to the Application Server, which ultimately communicates with the Database Server. The Application Server also exploits a Maps service API in order to retrieve users’ locations.
 \subsection{Component view}
 In the diagram below, main software components and their relations are shown. Only application server's
 components and offered interfaces are analyzed in detail.It should be clear that this is only the
