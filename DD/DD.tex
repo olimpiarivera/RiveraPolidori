@@ -262,6 +262,34 @@ The \textbf{LoginManager}, the \textbf{SignUpManager} and the \textbf{StoreRegis
 All the components that handles the communication between users and CLup’s services (\textbf{Clients}) and that redirects request to different parts of the system (\textbf{Router}) are finally implemented. The \textbf{Access Control Software} as well has been left at the end because implementing it in order to be compatible with just some specific turnstiles’  firmwares (the most common ones) will be reasonably straightforward. However, this particular component will be subject to continuous updating to make it compatible with new turnstiles’ types.\\
 \smallskip\\
 The Google Maps Service has not been mentioned because it represents an external system, that will be taken into account in the integration plan.
+
+\subsubsection{Integration}
+The integration process can be grouped in the following way:
+\begin{itemize}
+\item Integration between components and DBMS (the components we are referring to are the ones connected to the DBMS in the component diagram)
+\item Integration between Maps service mediator and Maps Service API
+\item Integration among application server components
+\item Integration between clients and application server (this means integrating them with the router)
+\item Integration between web server application and application server (this means integrating it with the router)
+\item Integration between access control software and application server (this means integrating it with the router)
+\end{itemize}
+As previously stated, a bottom-up approach will be carried out when integrating the components as well.  According to this approach, the following diagrams clarify the order in which the integration process will take place. 
+Note that whenever a component has not yet been implemented, drivers are needed in order to simulate it, to guarantee proper integration of components.\\
+\smallskip\\
+Most of the components rely on the QueueManager and QrCodeManager. For this reason, they are going to be one to be implemented and tested before the others. They are integrated with each other and with the DBMS. (Each component has the operations needed to work with the database).\\
+\smallskip\\
+Then, the BookingManager and TurnstileStatusManager are added and integrated with the QrCodeManager and the DBMS. Each of them as well require drivers.\\
+\smallskip\\
+At this point, the TicketGenerationManager is integrated with the QueueManager. Also, the TimeToArriveManager and the MapsServiceMediator are integrated with each other. This last component has to be integrated with the external services offered by Google Maps.\\
+\smallskip\\
+LoginManager, SignUpManager, StoreRegistrationManager are finally added and integrated with the DBMS.\\
+\smallskip\\
+At this point, the remaining parts related to the client side are implemented, and integrated into the system. the MobileApp, the WebServerApplication and the Access Control Software are integrated with the Router, which substitutes the remaining Driver.\\
+
+\subsubsection{Testing}
+
+The testing plan, as stated before, follows the same logic and order of the implementation and integration ones. Each component, after being implemented, is unit-tested and it is ready to be integrated. Every time an integration takes place, is it also tested. At the very end, the system is tested as a whole in order to verify wether it satisfies the functional and non-functional requirements.
+
 \section{Effort Spent}
 
 \section{Reference Documents}

@@ -20,5 +20,7 @@
 \contentsline {section}{\numberline {4}Requirements Traceability}{22}{section.4}%
 \contentsline {section}{\numberline {5}Implementation, Integration and Test Plan}{22}{section.5}%
 \contentsline {subsubsection}{\numberline {5.0.1}Implementation}{22}{subsubsection.5.0.1}%
-\contentsline {section}{\numberline {6}Effort Spent}{23}{section.6}%
-\contentsline {section}{\numberline {7}Reference Documents}{23}{section.7}%
+\contentsline {subsubsection}{\numberline {5.0.2}Integration}{23}{subsubsection.5.0.2}%
+\contentsline {subsubsection}{\numberline {5.0.3}Testing}{24}{subsubsection.5.0.3}%
+\contentsline {section}{\numberline {6}Effort Spent}{24}{section.6}%
+\contentsline {section}{\numberline {7}Reference Documents}{24}{section.7}%
