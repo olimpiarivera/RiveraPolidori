@@ -13,12 +13,12 @@
 \contentsline {subsection}{\numberline {2.3}Component view}{7}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Deployment View}{9}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Runtime View}{10}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Component Interfaces}{18}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Selected architectural styles and patterns}{18}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Other Design Decisions}{19}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Algorithms}{19}{subsection.2.9}%
-\contentsline {section}{\numberline {3}User Interface Design}{19}{section.3}%
-\contentsline {section}{\numberline {4}Requirements Traceability}{21}{section.4}%
-\contentsline {section}{\numberline {5}Implementation, Integration and Test Plan}{21}{section.5}%
-\contentsline {section}{\numberline {6}Effort Spent}{21}{section.6}%
-\contentsline {section}{\numberline {7}Reference Documents}{21}{section.7}%
+\contentsline {subsection}{\numberline {2.6}Component Interfaces}{19}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Selected architectural styles and patterns}{19}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Algorithms}{20}{subsection.2.8}%
+\contentsline {section}{\numberline {3}User Interface Design}{20}{section.3}%
+\contentsline {section}{\numberline {4}Requirements Traceability}{22}{section.4}%
+\contentsline {section}{\numberline {5}Implementation, Integration and Test Plan}{22}{section.5}%
+\contentsline {subsubsection}{\numberline {5.0.1}Implementation}{22}{subsubsection.5.0.1}%
+\contentsline {section}{\numberline {6}Effort Spent}{23}{section.6}%
+\contentsline {section}{\numberline {7}Reference Documents}{23}{section.7}%

@@ -174,6 +174,7 @@ Additionally, on this same node, a piece of software that communicates with the 
 \end{itemize}
 \subsection{Runtime View}
 The following sequence diagrams represent the dynamic interactions among the components during relevant processes.
+Note that, from this point on, Google Maps has been chosen as mapping and location provider among the other available ones. If offers a large library of APIs, which can be easily exploited for future additional functionalities. As stated in the RASD indeed, users are supposed not to change location while waiting for their turns, but things might change when the pandemic emergency will be over. For this reason, Google Maps would offer good quality services when dealing with real time changing locations. In addition, the Map Service can be easily replaced, without affecting the application internally, thanks to the presence of the MapsServiceMediator.
 \begin{figure}[H]
   \includegraphics[width=\linewidth]{LineUpRT.png}
   
@@ -216,7 +217,7 @@ The following diagram shows the main components' interfaces, the interactions am
 
 \noindent In order to increase the system’s reusability and maintainability, the Model-View-Controller pattern has been selected. This software design pattern enables parallel development and makes the application’s development much faster. MVC is suitable for web and mobile applications, in particular in the context of an object-oriented programming style. The application is divided into three main logical components: the model, the view, and the controller, with the ultimate goal to separate the internal representations of informations from the way they are presented to the user.
 
-\subsection{Other Design Decisions}
+
 \subsection{Algorithms}
 
 \section{User Interface Design}
@@ -233,7 +234,34 @@ The application's mockups were presented in the RASD, more precisely in the user
 \section{Requirements Traceability}
 
 \section{Implementation, Integration and Test Plan}
-
+\subsubsection{Implementation}
+The order in which the identified components will be implemented takes into account the fact that, in order for some of the components to work properly, some “core” components need to be implemented first. These dependancies among components mean that the best implementation, but also integration and testing approach to follow, is the bottom-up one. 
+The application server’s components have higher priority, because the rest of the components rely on them.\\
+\smallskip\\
+CLup’s components can be grouped in the following way:\\
+\smallskip\\
+1. QueueManager and QrCodeManager\\
+2. BookingManager and TurnstileStatusManager \\
+3. TimeToArriveManager and MapsServiceMediator\\
+4. TicketGenerationManager\\
+5. LoginManager, SignUpManager, StoreRegistrationManager\\
+6. Clients, Router and Access Control Software\\
+\smallskip\\
+The specified order corresponds to the order to follow for the implementation, integration and testing plans.\\
+\smallskip\\
+The \textbf{QueueManager} and the \textbf{QrCodeManager} have been chosen first because of their complexity and importance with respect to the other components. The QueueManager indeed, controls all the logic behind the virtual lines’ management, which is somehow affected by all the other CLup’s functionalities. The QR codes creation, managed by the QrCodeManager, is crucial for a proper functioning of virtual lines and reservations. For this reason, the QrCodeManager has to be implemented together with the QueueManager.\\
+\smallskip\\
+The same goes for the \textbf{BookingManager} and the \textbf{TurnstileStatusManager}. The former manages all the logic behind the booking process, while the latter needs to communicate with the QrCodeManager in order to handle the turnstiles’ status.\\
+\smallskip\\
+Once the components that enable a proper development of the core CLup’s functionalities have been implemented, components with lower priority are considered. In particular, the \textbf{TimeToArriveManager} in needed to manage all the informations related to the users’ location (distance and time to reach the stores). This component will be implemented but also integrated together with the \textbf{MapsServiceMediator}, which is the link between the whole system and the Google Maps Service.\\
+\smallskip\\
+In order to handle all the situations in which users that do not have access to the required technology interact with the system, the \textbf{TicketGenerationManager} is needed. This component as well communicates with the QueueManager.\\
+\smallskip\\
+The \textbf{LoginManager}, the \textbf{SignUpManager} and the \textbf{StoreRegistrationManager} are left at the end because, even if the functions provided by them are crucial for the entire system, the probability that something goes wrong while implementing them, is much lower with respect to the other components. Also, it is easier to estimate the time needed to complete them.\\
+\smallskip\\
+All the components that handles the communication between users and CLup’s services (\textbf{Clients}) and that redirects request to different parts of the system (\textbf{Router}) are finally implemented. The \textbf{Access Control Software} as well has been left at the end because implementing it in order to be compatible with just some specific turnstiles’  firmwares (the most common ones) will be reasonably straightforward. However, this particular component will be subject to continuous updating to make it compatible with new turnstiles’ types.\\
+\smallskip\\
+The Google Maps Service has not been mentioned because it represents an external system, that will be taken into account in the integration plan.
 \section{Effort Spent}
 
 \section{Reference Documents}
