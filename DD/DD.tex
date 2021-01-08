@@ -278,14 +278,33 @@ Note that whenever a component has not yet been implemented, drivers are needed 
 \smallskip\\
 Most of the components rely on the QueueManager and QrCodeManager. For this reason, they are going to be one to be implemented and tested before the others. They are integrated with each other and with the DBMS. (Each component has the operations needed to work with the database).\\
 \smallskip\\
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{INTEGR1.png}
+  
+\end{figure}
 Then, the BookingManager and TurnstileStatusManager are added and integrated with the QrCodeManager and the DBMS. Each of them as well require drivers.\\
 \smallskip\\
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{INTEGR2.png}
+  
+\end{figure}
 At this point, the TicketGenerationManager is integrated with the QueueManager. Also, the TimeToArriveManager and the MapsServiceMediator are integrated with each other. This last component has to be integrated with the external services offered by Google Maps.\\
 \smallskip\\
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{INTEGR3.png}
+  
+\end{figure}
 LoginManager, SignUpManager, StoreRegistrationManager are finally added and integrated with the DBMS.\\
 \smallskip\\
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{INTEGR4.png}
+  
+\end{figure}
 At this point, the remaining parts related to the client side are implemented, and integrated into the system. the MobileApp, the WebServerApplication and the Access Control Software are integrated with the Router, which substitutes the remaining Driver.\\
-
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{INTEGR5.png}
+  
+\end{figure}
 \subsubsection{Testing}
 
 The testing plan, as stated before, follows the same logic and order of the implementation and integration ones. Each component, after being implemented, is unit-tested and it is ready to be integrated. Every time an integration takes place, is it also tested. At the very end, the system is tested as a whole in order to verify wether it satisfies the functional and non-functional requirements.
