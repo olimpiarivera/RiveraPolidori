@@ -8,9 +8,9 @@
 \contentsline {section}{\numberline {2}Architectural Design}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Overview}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}High Level Components}{6}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Component view}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Component view}{8}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Deployment View}{9}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Runtime View}{10}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.5}Runtime View}{11}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}Component Interfaces}{19}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Selected architectural styles and patterns}{20}{subsection.2.7}%
 \contentsline {section}{\numberline {3}User Interface Design}{20}{section.3}%
