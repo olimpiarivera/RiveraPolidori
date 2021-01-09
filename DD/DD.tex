@@ -108,7 +108,11 @@ The functionalities offered by CLup work in the following way:
 \end{itemize}
 \subsection{High Level Components}
 The following figure represents an high level architecture of the system, showing the different physical machines dedicated to each of the three logic software layers: a tier to interface with the user, a middle tier that holds the business logic of the system, which separates clients and data, and a DataBase Server for the data access layer that holds all the data of the application. \\
-\smallskip\\
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{threeTiers.png}
+  
+\end{figure}
+
 Not only the modularization of the three layers provides many benefits in terms of flexibility for developers, by allowing them to work on specific part of the application, with minimal impact on the other layers, but it also guarantees more secure accesses to the database. To enhance the overall security of the system, firewalls are installed to monitor and control incoming and outgoing network traffic.
 \smallskip\\
 Another great advantage of this type of architecture that is exploited is scalability: Application Server and Web Server nodes are replicated and a load-balancing systems are added, improving the overall performance. Note that the Application server and the Web server are considered as a single middle tier containing the business logic, according with the previously defined three-tier architecture. It must be remarked, however, that the Web Server is only used to provide static content (HTML pages).
