@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.16)  9 JAN 2021 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.16)  9 JAN 2021 13:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -642,7 +642,7 @@ LaTeX Info: Redefining \nameref on input line 30.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 34.
 
-<logo_politecnico copia.png, id=111, 1124.2pt x 211.79124pt>
+<logo_politecnico copia.png, id=99, 1124.2pt x 211.79124pt>
 File: logo_politecnico copia.png Graphic file (type png)
 <use logo_politecnico copia.png>
 Package pdftex.def Info: logo_politecnico copia.png  used on input line 35.
@@ -666,224 +666,229 @@ politecnico copia.png>])
 \openout5 = `DD.toc'.
 
  [2] [3] [4] [5]
-<highArchitecture.png, id=169, 1016.29688pt x 903.375pt>
+<highArchitecture.png, id=153, 1016.29688pt x 903.375pt>
 File: highArchitecture.png Graphic file (type png)
 <use highArchitecture.png>
-Package pdftex.def Info: highArchitecture.png  used on input line 122.
+Package pdftex.def Info: highArchitecture.png  used on input line 123.
 (pdftex.def)             Requested size: 345.0pt x 306.66098pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--124
+Underfull \hbox (badness 10000) in paragraph at lines 110--125
 
  []
 
 [6]
-<ComponentDiagram.png, id=174, 2332.715pt x 1393.205pt>
+<ComponentDiagram.png, id=159, 2332.715pt x 1393.205pt>
 File: ComponentDiagram.png Graphic file (type png)
 <use ComponentDiagram.png>
-Package pdftex.def Info: ComponentDiagram.png  used on input line 132.
+Package pdftex.def Info: ComponentDiagram.png  used on input line 133.
 (pdftex.def)             Requested size: 345.0pt x 206.03806pt.
  [7 <./highArchitecture.png>] [8 <./ComponentDiagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-<deployment.png, id=186, 816.651pt x 467.346pt>
+<deployment.png, id=171, 816.651pt x 467.346pt>
 File: deployment.png Graphic file (type png)
 <use deployment.png>
-Package pdftex.def Info: deployment.png  used on input line 162.
+Package pdftex.def Info: deployment.png  used on input line 163.
 (pdftex.def)             Requested size: 345.0pt x 197.43921pt.
 [9 <./deployment.png>]
-<LineUpRT.png, id=192, 864.22874pt x 1370.87157pt>
+<LineUpRT.png, id=177, 864.22874pt x 1370.87157pt>
 File: LineUpRT.png Graphic file (type png)
 <use LineUpRT.png>
-Package pdftex.def Info: LineUpRT.png  used on input line 179.
+Package pdftex.def Info: LineUpRT.png  used on input line 180.
 (pdftex.def)             Requested size: 345.0pt x 547.25119pt.
  [10] [11]
-<BookingRT.png, id=201, 737.00343pt x 1063.72406pt>
+<BookingRT.png, id=186, 737.00343pt x 1063.72406pt>
 File: BookingRT.png Graphic file (type png)
 <use BookingRT.png>
-Package pdftex.def Info: BookingRT.png  used on input line 185.
+Package pdftex.def Info: BookingRT.png  used on input line 186.
 (pdftex.def)             Requested size: 345.0pt x 497.93773pt.
  [12 <./LineUpRT.png>] [13] [14 <./BookingRT.png>]
-<ticketRT.png, id=217, 502.87875pt x 965.85844pt>
+<ticketRT.png, id=202, 502.87875pt x 965.85844pt>
 File: ticketRT.png Graphic file (type png)
 <use ticketRT.png>
-Package pdftex.def Info: ticketRT.png  used on input line 192.
+Package pdftex.def Info: ticketRT.png  used on input line 193.
 (pdftex.def)             Requested size: 345.0pt x 662.62596pt.
  [15]
 Overfull \vbox (112.62596pt too high) has occurred while \output is active []
 
 
 [16 <./ticketRT.png>]
-<QrRT.png, id=227, 550.30594pt x 948.54375pt>
+<QrRT.png, id=212, 550.30594pt x 948.54375pt>
 File: QrRT.png Graphic file (type png)
 <use QrRT.png>
-Package pdftex.def Info: QrRT.png  used on input line 198.
+Package pdftex.def Info: QrRT.png  used on input line 199.
 (pdftex.def)             Requested size: 345.0pt x 594.67653pt.
  [17]
 Overfull \vbox (44.67653pt too high) has occurred while \output is active []
 
 
 [18 <./QrRT.png>]
-<interfacesDiagram.png, id=237, 1627.07875pt x 1016.79875pt>
+<interfacesDiagram.png, id=222, 1627.07875pt x 1016.79875pt>
 File: interfacesDiagram.png Graphic file (type png)
 <use interfacesDiagram.png>
-Package pdftex.def Info: interfacesDiagram.png  used on input line 206.
+Package pdftex.def Info: interfacesDiagram.png  used on input line 210.
 (pdftex.def)             Requested size: 345.0pt x 215.59755pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
 [19 <./interfacesDiagram.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
-<appUX.jpg, id=244, 1413.28pt x 993.7125pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+<appUX.jpg, id=229, 1413.28pt x 993.7125pt>
 File: appUX.jpg Graphic file (type jpg)
 <use appUX.jpg>
-Package pdftex.def Info: appUX.jpg  used on input line 227.
+Package pdftex.def Info: appUX.jpg  used on input line 232.
 (pdftex.def)             Requested size: 345.0pt x 242.57466pt.
 [20]
-<webUX.jpg, id=249, 1413.28pt x 993.7125pt>
+<webUX.jpg, id=234, 1413.28pt x 993.7125pt>
 File: webUX.jpg Graphic file (type jpg)
 <use webUX.jpg>
-Package pdftex.def Info: webUX.jpg  used on input line 233.
+Package pdftex.def Info: webUX.jpg  used on input line 238.
 (pdftex.def)             Requested size: 345.0pt x 242.57466pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 [21 <./appUX.jpg> <./webUX.jpg>]
-<traceability1.png, id=254, 448.67625pt x 666.49pt>
+<traceability1.png, id=239, 448.67625pt x 666.49pt>
 File: traceability1.png Graphic file (type png)
 <use traceability1.png>
-Package pdftex.def Info: traceability1.png  used on input line 242.
+Package pdftex.def Info: traceability1.png  used on input line 247.
 (pdftex.def)             Requested size: 345.0pt x 512.49718pt.
  [22]
-<traceability2.png, id=259, 448.67625pt x 360.34625pt>
+<traceability2.png, id=244, 448.67625pt x 360.34625pt>
 File: traceability2.png Graphic file (type png)
 <use traceability2.png>
-Package pdftex.def Info: traceability2.png  used on input line 247.
+Package pdftex.def Info: traceability2.png  used on input line 252.
 (pdftex.def)             Requested size: 345.0pt x 277.08807pt.
  [23 <./traceability1.png>]
-<Requirements1 copia.png, id=265, 541.02126pt x 767.86874pt>
+<Requirements1 copia.png, id=250, 541.02126pt x 767.86874pt>
 File: Requirements1 copia.png Graphic file (type png)
 <use Requirements1 copia.png>
-Package pdftex.def Info: Requirements1 copia.png  used on input line 252.
+Package pdftex.def Info: Requirements1 copia.png  used on input line 257.
 (pdftex.def)             Requested size: 345.0pt x 489.6651pt.
  [24 <./traceability2.png>]
-<Requirements2 copia.png, id=271, 541.02126pt x 481.8pt>
+<Requirements2 copia.png, id=256, 541.02126pt x 481.8pt>
 File: Requirements2 copia.png Graphic file (type png)
 <use Requirements2 copia.png>
-Package pdftex.def Info: Requirements2 copia.png  used on input line 257.
+Package pdftex.def Info: Requirements2 copia.png  used on input line 262.
 (pdftex.def)             Requested size: 345.0pt x 307.24083pt.
  [25 <./Requirements1 copia.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 263.
+(hyperref)                than one, level fixed on input line 268.
 
 
-Overfull \hbox (1.13214pt too wide) in paragraph at lines 264--291
+Overfull \hbox (1.13214pt too wide) in paragraph at lines 269--296
 \T1/cmr/m/n/10 The \T1/cmr/bx/n/10 Login-Man-ager\T1/cmr/m/n/10 , the \T1/cmr/b
 x/n/10 SignUp-Man-ager \T1/cmr/m/n/10 and the \T1/cmr/bx/n/10 Stor-eReg-is-tra-
 tion-Man-
  []
 
 [26 <./Requirements2 copia.png>] [27]
-<INTEGR1.png, id=287, 721.4955pt x 368.577pt>
+<INTEGR1.png, id=272, 721.4955pt x 368.577pt>
 File: INTEGR1.png Graphic file (type png)
 <use INTEGR1.png>
-Package pdftex.def Info: INTEGR1.png  used on input line 308.
+Package pdftex.def Info: INTEGR1.png  used on input line 313.
 (pdftex.def)             Requested size: 345.0pt x 176.24568pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--310
+Underfull \hbox (badness 10000) in paragraph at lines 307--315
 
  []
 
 [28]
-<INTEGR2.png, id=292, 632.3625pt x 331.83975pt>
+<INTEGR2.png, id=277, 632.3625pt x 331.83975pt>
 File: INTEGR2.png Graphic file (type png)
 <use INTEGR2.png>
-Package pdftex.def Info: INTEGR2.png  used on input line 314.
+Package pdftex.def Info: INTEGR2.png  used on input line 319.
 (pdftex.def)             Requested size: 345.0pt x 181.04402pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--316
+Underfull \hbox (badness 10000) in paragraph at lines 316--321
 
  []
 
-<INTEGR3.png, id=293, 682.9515pt x 451.6875pt>
+<INTEGR3.png, id=278, 682.9515pt x 451.6875pt>
 File: INTEGR3.png Graphic file (type png)
 <use INTEGR3.png>
-Package pdftex.def Info: INTEGR3.png  used on input line 320.
+Package pdftex.def Info: INTEGR3.png  used on input line 325.
 (pdftex.def)             Requested size: 345.0pt x 228.17274pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--322
+Underfull \hbox (badness 10000) in paragraph at lines 322--327
 
  []
 
 [29 <./INTEGR1.png> <./INTEGR2.png>]
-<INTEGR4.png, id=300, 734.14275pt x 474.573pt>
+<INTEGR4.png, id=285, 734.14275pt x 474.573pt>
 File: INTEGR4.png Graphic file (type png)
 <use INTEGR4.png>
-Package pdftex.def Info: INTEGR4.png  used on input line 326.
+Package pdftex.def Info: INTEGR4.png  used on input line 331.
 (pdftex.def)             Requested size: 345.0pt x 223.02037pt.
 
-Overfull \hbox (0.58594pt too wide) in paragraph at lines 323--328
+Overfull \hbox (0.58594pt too wide) in paragraph at lines 328--333
 []\T1/cmr/m/n/10 LoginManager, SignUp-Man-ager, Stor-eReg-is-tra-tion-Man-ager 
 are fi-nally added
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--328
+Underfull \hbox (badness 10000) in paragraph at lines 328--333
 
  []
 
-<INTEGR5.png, id=301, 546.24075pt x 265.59225pt>
+<INTEGR5.png, id=286, 546.24075pt x 265.59225pt>
 File: INTEGR5.png Graphic file (type png)
 <use INTEGR5.png>
-Package pdftex.def Info: INTEGR5.png  used on input line 331.
+Package pdftex.def Info: INTEGR5.png  used on input line 336.
 (pdftex.def)             Requested size: 345.0pt x 167.74951pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--333
+Underfull \hbox (badness 10000) in paragraph at lines 334--338
 
  []
 
 [30 <./INTEGR3.png> <./INTEGR4.png>]
-<effort1.png, id=308, 460.72125pt x 285.065pt>
+<effort1.png, id=293, 460.72125pt x 285.065pt>
 File: effort1.png Graphic file (type png)
 <use effort1.png>
-Package pdftex.def Info: effort1.png  used on input line 343.
+Package pdftex.def Info: effort1.png  used on input line 348.
 (pdftex.def)             Requested size: 345.0pt x 213.46329pt.
  [31 <./INTEGR5.png>]
-<effort2.png, id=315, 460.72125pt x 285.065pt>
+<effort2.png, id=300, 460.72125pt x 285.065pt>
 File: effort2.png Graphic file (type png)
 <use effort2.png>
-Package pdftex.def Info: effort2.png  used on input line 350.
+Package pdftex.def Info: effort2.png  used on input line 355.
 (pdftex.def)             Requested size: 345.0pt x 213.46329pt.
- [32 <./effort1.png> <./effort2.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+61.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [32 <./effort1.png> <./effort2.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 366.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 366.
  (./DD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 366.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 366.
 Package rerunfilecheck Info: File `DD.out' has not changed.
-(rerunfilecheck)             Checksum: 762D376C488364CFE41B4A654ABC65A0;1696.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 356.
+(rerunfilecheck)             Checksum: AB0C5DD2ABE6EFE9222B035A8599DF2C;1499.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 366.
  ) 
 Here is how much of TeX's memory you used:
- 17932 strings out of 480608
- 339818 string characters out of 5903629
+ 17945 strings out of 480608
+ 340328 string characters out of 5903629
  583779 words of memory out of 5000000
- 33400 multiletter control sequences out of 15000+600000
- 540464 words of font info for 40 fonts, out of 8000000 for 9000
+ 33412 multiletter control sequences out of 15000+600000
+ 540777 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,7n,65p,1652b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -892,11 +897,12 @@ usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></us
 r/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/
 local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/lo
 cal/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/loca
-l/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on DD.pdf (32 pages, 2256343 bytes).
+l/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/
+texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on DD.pdf (32 pages, 2276762 bytes).
 PDF statistics:
- 360 PDF objects out of 1000 (max. 8388607)
- 275 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 331 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 265 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 307 words of extra memory for PDF output out of 10000 (max. 10000000)
 

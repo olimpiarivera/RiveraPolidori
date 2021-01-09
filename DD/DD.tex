@@ -68,6 +68,7 @@ A more detailed overview of the functionalities offered by the system can be fou
 \item RDBMS: Relational Database Management System
 \item RMI: Remote Method Invocation
 \item JDBC: Java DataBase Connectivity
+\item UI: User Interface
 \end{itemize}
 \subsubsection{Abbreviations}
 \begin{itemize}
@@ -150,7 +151,7 @@ the waiting-times managing algorithm. It access the DBMS to retrieve queues' dat
 the mapping between codes and reservations/turnNumbers.
 \item\textbf{bookingManager}: it manages all the logic behind booking process. It stores new reservations.
 \item\textbf{turnstileStatusManager}: it manages the turnstile status. It unlocks them if the scanned QrCode is valid, so
-it has to interact with qrCodeManager.
+it has to interact with qrCodeManager. It also communicates with the DBMS in order for the timestamps associated to customers' entrances and exits to be saved. These informations are needed to calculate customers' visits durations.
 \item\textbf{timeToArriveManager}: its purpose is to manage the information regarding the geolocation and correlated details like distance and time to arrive. In this first version of CLup it does nothing more than forward time-to-arrive request to the mapsServiceMediator.
 \item\textbf{MapsServiceMediator}: the purpose of this component is to decouple the system from a specific maps service, so future external changes won't affect the internal system's interface.
 
@@ -199,13 +200,17 @@ Note that, from this point on, Google Maps has been chosen as mapping and locati
   
 \end{figure}
 
-\noindent The sequence diagram above describes which components’ interactions take place when a QR code is scanned by a turnstile. Whenever a store’s customer makes his/her QR code scanned, the turnstile’s Access Control Software forward a request to unlock the the turnstile (together with the scanned QR code informations) to the Router, which eventually forwards it to the TurnstileStatusManager. This last component handles the request by asking to the QRCodeManager, which communicates with the DBMS, to check the validity of the scanned QR code (not expired or false). If the check is successful, the TurnstileStatusManager is notified and a confirmation is sent to the Access Control Software, which eventually lets the turnstile unlock. Otherwise (unsuccessful check) the Access Control Software receives an error message and the turnstile will not be unlocked.
+\noindent The sequence diagram above describes which components’ interactions take place when a QR code is scanned by a turnstile. Whenever a store’s customer makes his/her QR code scanned, the turnstile’s Access Control Software forward a request to unlock the the turnstile (together with the scanned QR code informations) to the Router, which eventually forwards it to the TurnstileStatusManager. This last component handles the request by asking to the QRCodeManager, which communicates with the DBMS, to check the validity of the scanned QR code (not expired or false). If the check is successful, the TurnstileStatusManager is notified and a confirmation is sent to the Access Control Software, which eventually lets the turnstile unlock. Otherwise (unsuccessful check) the Access Control Software receives an error message and the turnstile will not be unlocked.\\
+\smallskip\\
+Be aware that only the more relevant and complex processes have been represented.  The process in which the store manager requests the current customer counter, indeed, was not included, as it consists of a simple query to the database, that can be done by any component (turnstileStatusManager for instance), by only passing the store as a parameter.
+
 \subsection{Component Interfaces}
 The following diagram shows the main components' interfaces, the interactions among them and the methods that can be invoked on them.
 \begin{figure}[H]
   \includegraphics[width=\linewidth]{interfacesDiagram.png}
   
 \end{figure}
+
 
 \subsection{Selected architectural styles and patterns}
 
@@ -352,5 +357,10 @@ The testing plan, as stated before, follows the same logic and order of the impl
 \end{figure}
 
 \section{Reference Documents}
+\begin{itemize}
+\item The diagrams in the document have been made with \url{https://staruml.io} and \url{https://www.draw.io}
+
+\end{itemize}
+
 
 \end{document}
